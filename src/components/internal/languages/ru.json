@@ -1,0 +1,16 @@
+{
+    "ru": {
+      "translation": {
+        "language": "Язык",
+        "home": "Главная",
+        "music": "Музыка",
+        "news": "Новости",
+        "media": "Медиа",
+        "contact": "Контакты",
+        "name_header":"Татьяна Мучичка",
+        "listen_music":"Слушать музыку",
+        "music_header":"Музыка",
+        "album_title":"Заголовок альбома"
+      }
+    }
+ }
