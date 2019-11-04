@@ -1,6 +1,8 @@
 import React from "react";
 import Querystring from "querystring";
 
+import '../assets/css/music.css';
+
 import Language from "../components/internal/languages/Language"
 import {LanguageContext} from "../components/internal/languages/LanguageContext"
 
@@ -43,9 +45,19 @@ export default class MusicPage extends React.Component
           <Layout toggleLanguage ={this.toggleLanguage}>
             
             <div className="flex-column album-section">
+            <img className="background-img accordeon-img"/>
               <span className="section-title">{this.state.LANGUAGE.t('music_header')}</span>
 
               <span className="album-title">{this.state.LANGUAGE.t('album_title')}</span> 
+              <AudioPlayer audioSrc={audio1}/>
+              <AudioPlayer audioSrc={audio1}/>
+              <AudioPlayer audioSrc={audio1}/>
+            </div>
+            <div className="flex-column album-section">
+
+              <span className="album-title">{this.state.LANGUAGE.t('album_title')}</span> 
+              <AudioPlayer audioSrc={audio1}/>
+              <AudioPlayer audioSrc={audio1}/>
               <AudioPlayer audioSrc={audio1}/>
             </div>
     
