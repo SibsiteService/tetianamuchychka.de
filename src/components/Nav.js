@@ -6,8 +6,7 @@ export default class Nav  extends React.Component{
 
     componentDidMount()
     {
-        window.onscroll = this.handleStickyNav;
-
+       // window.onscroll = this.handleStickyNav;
     }
     toggleMenu()
     {
