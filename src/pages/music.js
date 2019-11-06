@@ -45,7 +45,7 @@ export default class MusicPage extends React.Component
           <Layout toggleLanguage ={this.toggleLanguage}>
             
             <div className="flex-column album-section">
-            <img className="background-img accordeon-img"/>
+              <img className="background-img accordeon-img"/>
               <span className="section-title">{this.state.LANGUAGE.t('music_header')}</span>
 
               <span className="album-title">{this.state.LANGUAGE.t('album_title')}</span> 
