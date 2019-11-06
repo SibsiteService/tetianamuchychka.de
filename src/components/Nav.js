@@ -3,6 +3,12 @@ import {LanguageContext} from "./internal/languages/LanguageContext"
 
 export default class Nav  extends React.Component{
 
+
+    componentDidMount()
+    {
+        window.onscroll = this.handleStickyNav;
+
+    }
     toggleMenu()
     {
         let toggle = document.getElementById('toggleButton');
@@ -33,6 +39,12 @@ export default class Nav  extends React.Component{
         }
     }
 
+    handleStickyNav(e)
+    {
+        let nav = document.getElementById("nav");
+        nav.style.top = window.pageYOffset+'px';
+    }
+
     render(){
         return(  
             <LanguageContext.Consumer>
@@ -45,7 +57,8 @@ export default class Nav  extends React.Component{
                             <span id="accordeon-menu-strip3" className="accordeon-menu-strip"/>
                             <span id="accordeon-menu-strip4" className="accordeon-menu-strip"/>
                         </div>
-                        
+
+                        <div className="nav-content">
                         <div className="flex-column">
                             <a href={"/?lang="+ LANGUAGE.currentLang()}>{LANGUAGE.t('home')}</a>
                             <div className="underline"/>
@@ -76,6 +89,8 @@ export default class Nav  extends React.Component{
                             <button className= {"language-button"+ (LANGUAGE.currentLang()=='en'?' active-language-button':'') } onClick={this.selectLenguage.bind(this,'en')}>EN</button>
                             <button className= {"language-button"+ (LANGUAGE.currentLang()=='ru'?' active-language-button':'') } onClick={this.selectLenguage.bind(this,'ru')}>RU</button>           
                         </div>    
+                        </div>
+                        
                     </nav>
                     )   
                 }

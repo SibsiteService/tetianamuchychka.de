@@ -9,13 +9,13 @@
 	margin-left: 5%;
 	font-size: 50px;
     color: indianred;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #C6C7BF;
 }
 
 .audio-player-container
 {
     width: 300px;
-    background: rgba(128, 128, 128, 0.342);
+    background: rgba(128, 128, 128, 0.8);
     margin-top:30px;
 }
 
