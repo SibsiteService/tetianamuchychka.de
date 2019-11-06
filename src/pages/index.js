@@ -56,7 +56,7 @@ export default class IndexPage extends React.Component
                 <span className="section-header">{this.state.LANGUAGE.t('name_header')}</span>
           
                 <div className="flex-column flex-sa button-container">
-                  <a href="#" className="custom-button">{this.state.LANGUAGE.t('listen_music')}</a>
+                  <a href={"/music/?lang="+ this.state.LANGUAGE.currentLang()} className="custom-button">{this.state.LANGUAGE.t('listen_music')}</a>
                 </div>
           
                 <div className="flex-row flex-sa social-container">

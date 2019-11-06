@@ -9,11 +9,12 @@ class Language
     constructor(props)
     {
         this.langPackets ={
-            ru: require('./ru.json'),
+            de: require('./de.json'),
             en: require('./en.json'),
+            ru: require('./ru.json'),
         };
     
-        this.setLang('ru');
+        this.setLang('de');
     }
 
     setLang(lang)

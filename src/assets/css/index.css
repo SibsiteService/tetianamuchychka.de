@@ -86,20 +86,20 @@ body
 
 .tetiana1-img
 {
-	background: no-repeat center top 0px url("../images/Tetiana_03.png");
+	background: no-repeat center top 0px url("../images/Tetiana_03_reduced.png");
 	background-size: cover;
 }
 
 .accordeon-img
 {
-	background: no-repeat center top 0px url("../images/accordeon.png");
+	background: no-repeat center top 0px url("../images/Tetiana_09_reduced.jpg");
 	background-size: cover;
 }
 
 .section-header
 {
 	margin-top: 5%;
-	font-size: 80px;
+	font-size: 70px;
 	color:#C6C7BF;
 	text-align: center;
 }
@@ -169,7 +169,7 @@ a.social-icon:hover
 
 .nav-container:hover
 {
-	background: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.7);
 }
 
 .nav-container a
@@ -234,7 +234,7 @@ a.social-icon:hover
 		overflow: hidden;
 		padding-top: 40px;
 		background:rgba(0, 0, 0, 0.9);
-		transition: 2s;
+		transition: 1s;
 	}
 
 	.nav-container a, button
@@ -244,7 +244,7 @@ a.social-icon:hover
 
 	.active-menu{
 		width: 100% ;
-		transition: 2s;
+		transition: 1s;
 	}
 
 	.toggle-button{
@@ -257,7 +257,7 @@ a.social-icon:hover
 		position: fixed;
 		top:10px;
 		left:10px;
-		transition: 2s;
+		transition: 1s;
 	}
 
 	#accordeon-menu-strip2 {
