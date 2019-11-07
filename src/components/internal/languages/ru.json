@@ -5,13 +5,14 @@
         "home": "Главная",
         "music": "Музыка",
         "biography":"Биография",
-        "news": "Новости",
+        "concerts": "Концерты",
         "media": "Медиа",
         "contact": "Контакты",
         "name_header":"Татьяна Мучичка",
         "listen_music":"Слушать музыку",
         "music_header":"Музыка",
-        "album_title":"Заголовок альбома"
+        "album_title":"Заголовок альбома",
+        "download":"Скачать"
       }
     }
  }

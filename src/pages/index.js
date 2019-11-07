@@ -35,12 +35,11 @@ export default class IndexPage extends React.Component
 
       this.toggleLanguage =  this.toggleLanguage.bind(this);
 
-      
       let langURL = Querystring.parse(this.props.location.search)['?lang'];
+
       if(langURL)
       {
         this.state.LANGUAGE.setLang(langURL);
-
       }
      
     }

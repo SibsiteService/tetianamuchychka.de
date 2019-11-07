@@ -5,13 +5,14 @@
         "home": "Home",
         "music": "Music",
         "biography":"Biography",
-        "news": "News",
+        "concerts": "Concerts",
         "media": "Media",
         "contact": "Contact",
         "name_header":"Tetiana Muchychka",
         "listen_music":"Listen to music",
         "music_header":"Music",
-        "album_title":"Album Title"
+        "album_title":"Album Title",
+        "download":"Download"
       }
     }
  }

@@ -8,6 +8,7 @@ export default class Nav  extends React.Component{
     {
        // window.onscroll = this.handleStickyNav;
     }
+
     toggleMenu()
     {
         let toggle = document.getElementById('toggleButton');
@@ -74,7 +75,7 @@ export default class Nav  extends React.Component{
                         </div>
         
                         <div className="flex-column">
-                            <a href="about">{LANGUAGE.t('news')}</a>
+                            <a href="about">{LANGUAGE.t('concerts')}</a>
                             <div className="underline"/>
                         </div>
         
