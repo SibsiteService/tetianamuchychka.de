@@ -60,6 +60,13 @@ export default class MusicPage extends React.Component
               <AudioPlayer audioSrc={audio1}/>
               <AudioPlayer audioSrc={audio1}/>
             </div>
+
+            <div className="flex-column album-section">
+              <span className="section-title">{this.state.LANGUAGE.t('video_header')}</span>
+              <iframe width="560" height="315" src="https://www.youtube.com/watch?v=4jYYHaTwWvY" frameborder="0" allowfullscreen></iframe>       
+            </div>
+
+           
     
           </Layout>
         </LanguageContext.Provider> 

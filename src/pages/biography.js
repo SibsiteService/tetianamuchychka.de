@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby"
 import Querystring from "querystring";
 
 import Language from "../components/internal/languages/Language"
@@ -52,6 +53,7 @@ export default class BiographyPage extends React.Component
         <LanguageContext.Provider value={this.state.LANGUAGE}>
           <Layout toggleLanguage ={this.toggleLanguage}>
             <div className="flex-column biography-section">
+              <div className="background-underlay"/>
                 <span className="section-title biography-title">{this.state.LANGUAGE.t('biography')}</span>
                 <div className= "flex-row flex-sa biography-container">
                    <div className= "biography-text" >
@@ -78,8 +80,8 @@ export default class BiographyPage extends React.Component
                    <div className= "biography-img tetiana2-img"/>
                 </div>
                 <div className="flex-row flex-center download-link-container">
-                  <a href={biographies["biography_"+this.state.LANGUAGE.currentLang()]} download>{this.state.LANGUAGE.t('download')}</a>
-                </div>
+                  <a href={biographies["biography_"+this.state.LANGUAGE.currentLang()]} download>{this.state.LANGUAGE.t('download')}</a>               
+                </div>  
             </div>
           </Layout>
         </LanguageContext.Provider> 
