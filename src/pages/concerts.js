@@ -7,7 +7,6 @@ import Language from "../components/internal/languages/Language"
 import {LanguageContext} from "../components/internal/languages/LanguageContext"
 
 import Layout from "../components/Layout";
-import concertsImg from "../assets/images/tetiana_06_reduced.jpg"
 
 export default class ConcertsPage extends React.Component
 {
