@@ -7,7 +7,7 @@ import Language from "../components/internal/languages/Language"
 import {LanguageContext} from "../components/internal/languages/LanguageContext"
 
 import Layout from "../components/Layout";
-import concertsImg from "../assets/images/concerts.png"
+import concertsImg from "../assets/images/tetiana_06_reduced.jpg"
 
 export default class ConcertsPage extends React.Component
 {
@@ -45,9 +45,7 @@ export default class ConcertsPage extends React.Component
             <div className="flex-column concerts-section">
 
               <span className="section-title">{this.state.LANGUAGE.t('concerts')}</span>
-
-              <img src={concertsImg} className="concerts-img"/>
-
+<br />
               <table className="concert-table">
                 <tbody>
                     <tr>
@@ -93,7 +91,7 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                                date
+                            date
                             </span>
                             <span className="concert-second-title">
                                 place
@@ -112,6 +110,8 @@ export default class ConcertsPage extends React.Component
                     </tr>
                 </tbody>
               </table>
+
+              <img className="background-img concerts-img"/>
 
             </div>
           </Layout>

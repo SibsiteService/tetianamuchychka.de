@@ -57,7 +57,7 @@ export default class IndexPage extends React.Component
               
                 <div className="flex-row flex-center social-container">
                   <a href="https://www.facebook.com/people/Tetiana-Muchychka/100006740625670" target="_blank" className="fa fa-facebook-square social-icon"/>
-                  <a>&hbsp;</a>
+                  <a>&nbsp;&nbsp;&nbsp;</a>
                   <a href="https://www.instagram.com/tetiana.muchychka" target="_blank" className="fa fa-instagram social-icon" aria-hidden="true"/> 
                 </div>
               </Section> 

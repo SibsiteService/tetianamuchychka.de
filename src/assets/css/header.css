@@ -19,12 +19,12 @@
 	font-weight: 600;
 	font-size: 20px;
     text-decoration: none;
-	color: #C6C7BF;
+	color: #AFAFAF;
 }
 
 .nav-container a:hover 
 {
-	color: #AFAFAF;
+	color: rgb(153, 153, 153);
 }
 
 
@@ -41,7 +41,7 @@
 {
 	width:0px;
 	height: 2px;
-	background: #C8C085;
+	background: #d33333;
 	transition: 1s;
 }
 
@@ -73,6 +73,7 @@
 }
 
 
+
 @media screen and (max-width: 1024px)
 {
 	.active-menu{
@@ -88,7 +89,7 @@
 		height: 0;
 		width: 0;
 		padding-top: 40px;
-		background:rgba(0, 0, 0, 0.8);
+		background:rgba(0, 0, 0, 0.9);
 	}
 
 	.active-menu.nav-container{

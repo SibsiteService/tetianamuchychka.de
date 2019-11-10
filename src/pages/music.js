@@ -46,29 +46,14 @@ export default class MusicPage extends React.Component
             
             <div className="flex-column album-section">
               <img className="background-img accordeon-img"/>
-              <span className="section-title">{this.state.LANGUAGE.t('music_header')}</span>
-
-              <span className="album-title">{this.state.LANGUAGE.t('album_title')}</span> 
+              <span className="album-title">{this.state.LANGUAGE.t('music_header')}</span> 
               <AudioPlayer audioSrc={audio1}/>
               <AudioPlayer audioSrc={audio1}/>
               <AudioPlayer audioSrc={audio1}/>
             </div>
-            <div className="flex-column album-section">
+            
 
-              <span className="album-title">{this.state.LANGUAGE.t('album_title')}</span> 
-              <AudioPlayer audioSrc={audio1}/>
-              <AudioPlayer audioSrc={audio1}/>
-              <AudioPlayer audioSrc={audio1}/>
-            </div>
-
-            <div className="flex-column album-section">
-              <span className="section-title">{this.state.LANGUAGE.t('video_header')}</span>
-              <iframe width="560" height="315" src="https://www.youtube.com/watch?v=4jYYHaTwWvY" frameborder="0" allowfullscreen></iframe>       
-            </div>
-
-           
-    
-          </Layout>
+            </Layout>
         </LanguageContext.Provider> 
         );
     }
