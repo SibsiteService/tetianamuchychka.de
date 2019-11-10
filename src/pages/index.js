@@ -52,14 +52,12 @@ export default class IndexPage extends React.Component
               <Section>
                 <img className="background-img tetiana1-img"/>
           
-                <span className="section-header">{this.state.LANGUAGE.t('name_header')}</span>
-          
-                <div className="flex-column flex-sa button-container">
-                  <a href={"/music/?lang="+ this.state.LANGUAGE.currentLang()} className="custom-button">{this.state.LANGUAGE.t('listen_music')}</a>
-                </div>
-          
-                <div className="flex-row flex-sa social-container">
+                <span className="section-header"><strong>{this.state.LANGUAGE.t('name_header')}</strong></span>
+                <span className="section-title"><strong>{this.state.LANGUAGE.t('title_header')}</strong></span>
+              
+                <div className="flex-row flex-center social-container">
                   <a href="https://www.facebook.com/people/Tetiana-Muchychka/100006740625670" target="_blank" className="fa fa-facebook-square social-icon"/>
+                  <a>&hbsp;</a>
                   <a href="https://www.instagram.com/tetiana.muchychka" target="_blank" className="fa fa-instagram social-icon" aria-hidden="true"/> 
                 </div>
               </Section> 

@@ -20,7 +20,7 @@
 }
 .download-link-container a
 {
-    color:indianred;
+    color:#d33333;
 }
 .biography-text
 {
@@ -30,7 +30,7 @@
 
 .biography-title
 {
-    border-bottom: 1px solid indianred;
+    border-bottom: 1px solid #d33333;
     font-size: 70px;
 }
 

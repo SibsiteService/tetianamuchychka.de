@@ -69,7 +69,8 @@ body
 .section
 {
 	width: 100%;
-	align-items: center;
+	align-items: stretch;
+	align-self: stretch;
 }
 
 .background-img
@@ -77,7 +78,7 @@ body
 	position: fixed;
 	width: 100%;
 	height: 100%;
-	filter: brightness(0.3);
+	filter: brightness(0.7);
 	z-index: -1;
 	top: 0;
 	left: 0;
@@ -85,7 +86,7 @@ body
 
 .tetiana1-img
 {
-	background: no-repeat center top 0px url("../images/Tetiana_03_reduced.png");
+	background: no-repeat center top 0px url("../images/Tetiana_14_reduced.jpg");
 	background-size: cover;
 }
 
@@ -97,29 +98,33 @@ body
 
 .section-header
 {
-	margin-top: 5%;
+	margin-top: 17%;
+	margin-right: 0.5%;
 	font-size: 70px;
-	color:#C6C7BF;
-	text-align: center;
+	color:#d33333;
+	text-align: right;
+	
 }
 .section-title
 {
-	margin-top: 5%;
-	font-size: 80px;
-	color:#C6C7BF;
-	text-align: center;
+	margin-top: 1%;
+	margin-right: 0.5%;
+	font-size: 40px;
+	color:#ffffff;
+	text-align: right;
+	
 }
 .social-container
 {
 	min-width: 100px;
-	align-self: center;
-	margin-top: 50px;
+	align-self: bottom;
+	margin-top: 10%;
 }
 
 a.social-icon
 {
 	font-size: 35px;
-	color :rgba(230, 230, 230, 0.5);
+	color :rgba(255, 255, 255, 0.904);
 	transition: 0.5s;
 	outline: none;
 	text-decoration: none;
@@ -144,7 +149,7 @@ a.social-icon:hover
 	background: rgba(0, 0, 0, 0.5);
 	font-size: 30px;
 	text-decoration: none;
-	border: 1px solid indianred;
+	border: 1px solid #d33333;
 	padding: 10px;
 	transition: 1s;
 }
