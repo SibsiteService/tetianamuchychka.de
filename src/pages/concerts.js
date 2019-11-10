@@ -45,7 +45,7 @@ export default class ConcertsPage extends React.Component
             <div className="flex-column concerts-section">
 
               <span className="section-title">{this.state.LANGUAGE.t('concerts')}</span>
-<br />
+
               <table className="concert-table">
                 <tbody>
                     <tr>

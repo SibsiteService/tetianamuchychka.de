@@ -35,8 +35,8 @@
 
 .concert-table
 {
-    width: 100%;
-    margin-top: 50px;
+    width: 80%;
+    margin-top: 200px;
 }
 
 .concert-table tr
@@ -67,10 +67,16 @@
 
 @media screen and (max-width: 990px)
 {
+    .concert-table
+{
+    width: 100%;
+    margin-top: 10px;
+}
     .concert-table tr
     {
         flex-direction: column;
         align-items: flex-start;
     }
+
 }
 
