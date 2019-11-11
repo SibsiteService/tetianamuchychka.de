@@ -43,7 +43,7 @@ export default class ConcertsPage extends React.Component
             <div className="background-underlay"/>
             <div className="flex-column concerts-section">
 
-              <span className="section-title">{this.state.LANGUAGE.t('concerts')}</span>
+              <span className="biography-title">{this.state.LANGUAGE.t('concerts')}</span>
 
               <table className="concert-table">
                 <tbody>
@@ -110,7 +110,7 @@ export default class ConcertsPage extends React.Component
                 </tbody>
               </table>
 
-              <img className="background-img concerts-img"/>
+              <img className="background-img-concerts concerts-img"/>
 
             </div>
           </Layout>

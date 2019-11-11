@@ -57,24 +57,12 @@ export default class BiographyPage extends React.Component
                 <span className="section-title biography-title">{this.state.LANGUAGE.t('biography')}</span>
                 <div className= "flex-row flex-sa biography-container">
                    <div className= "biography-text" >
-                     <p>
-                       Biography biography biography biography biography biography biography biography biography biography
-                       biography biography biography biography biography biography biography biography biography biography biography biography biography biography
-                       biography biography biography biography biography biography biography biography biography biography biography biography biography biography
-                       biography biography biography biography biography biography biography biography biography biography biography biography biography biography
-                       biography biography biography biography biography biography biography biography biography biography biography biography biography biography
-                       biography biography biography biography biography biography biography biography biography biography biography biography biography biography
-                       biography biography biography biography biography biography biography biography biography biography biography biography biography biography
-                     </p>
-                     <p>
-                       Biography biography biography biography biography biography biography biography biography biography
-                       biography biography biography biography biography biography biography biography biography biography biography biography biography biography
-                       biography biography biography biography biography biography biography biography biography biography biography biography biography biography
-                       biography biography biography biography biography biography biography biography biography biography biography biography biography biography
-                       biography biography biography biography biography biography biography biography biography biography biography biography biography biography
-                       biography biography biography biography biography biography biography biography biography biography biography biography biography biography
-                       biography biography biography biography biography biography biography biography biography biography biography biography biography biography
-                     </p>
+                    <p>
+                    {this.state.LANGUAGE.t('biography_first_paragraph')}
+                    </p>
+                    <p>
+                    {this.state.LANGUAGE.t('biography_second_paragraph')}
+                    </p>
                        
                    </div>
                    <div className= "biography-img tetiana2-img"/>
