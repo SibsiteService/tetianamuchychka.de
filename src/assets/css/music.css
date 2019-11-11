@@ -6,7 +6,7 @@
 
 .album-title {
     align-self: end;
-	margin-left: 5%;
+	margin-left: 70%;
 	font-size: 70px;
     color: #d33333;
     border-bottom: 1px solid #C6C7BF;
@@ -18,7 +18,7 @@
     background: rgba(128, 128, 128, 0.8);
     margin-top: 50px;
     align-self: end;
-    margin-left: 5%;
+    margin-left: 70%;
 }
 
 .audio-player-body audio
@@ -78,4 +78,25 @@
 	font-size: 70px;
     color: #d33333;
     border-bottom: 1px solid #C6C7BF;
+}
+
+@media screen and (max-width: 990px)
+{
+
+.album-title {
+    align-self: end;
+	margin-left: 5%;
+	font-size: 70px;
+    color: #d33333;
+    border-bottom: 1px solid #C6C7BF;
+}
+
+.audio-player-container
+{
+    width: 300px;
+    background: rgba(128, 128, 128, 0.8);
+    margin-top: 50px;
+    align-self: end;
+    margin-left: 5%;
+}
 }
