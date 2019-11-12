@@ -7,8 +7,8 @@ export default class Nav  extends React.Component{
     componentDidMount()
     {
       let dropdown = document.getElementsByClassName('dropdown-item')[0];
-      console.log(dropdown);
-      dropdown.onClick= this.toggleDropDown;
+      dropdown=dropdown.querySelector('a');
+      dropdown.onclick= this.toggleDropDown;
     }
 
     toggleMenu()
@@ -43,7 +43,19 @@ export default class Nav  extends React.Component{
 
     toggleDropDown(e)
     {
-        console.log(1);
+        let dropdown = document.getElementsByClassName('dropdown-submenu')[0];
+        console.log(e.target);
+        if(dropdown.classList.contains('dropdown-submenu-enabled'))
+        {
+            dropdown.classList.remove('dropdown-submenu-enabled');
+            dropdown.classList.add('dropdown-submenu-disabled');
+            
+        }
+        else
+        {
+            dropdown.classList.add('dropdown-submenu-enabled');
+            dropdown.classList.remove('dropdown-submenu-disabled');
+        }
     }
 
     render(){
