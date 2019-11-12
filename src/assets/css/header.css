@@ -1,7 +1,7 @@
 /*Menu styles*/
 .nav-container
 {
-	background: rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.5);
 	position: sticky;
 	top: 0;
 	width: 100%;
@@ -11,7 +11,7 @@
 
 .nav-container:hover
 {
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.7);
 }
 
 .nav-container a
@@ -19,12 +19,12 @@
 	font-weight: 600;
 	font-size: 20px;
     text-decoration: none;
-	color: #AFAFAF;
+	color: #ffffffc5;
 }
 
 .nav-container a:hover 
 {
-	color: rgb(153, 153, 153);
+	color: #ffffff;
 }
 
 
@@ -64,7 +64,7 @@
 	font-size: inherit;
 	font-weight: 600;
 	font-size: 25px;
-    color: #AFAFAF;
+    color: #ffffffc5;
 }
 
 .active-language-button
@@ -89,13 +89,14 @@
 		height: 0;
 		width: 0;
 		padding-top: 40px;
-		background:rgba(0, 0, 0, 0.9);
+		background:rgba(0, 0, 0, 0.85);
 	}
 
 	.active-menu.nav-container{
 
 		height: 100%;
 		width: 100%;
+		background:rgba(0, 0, 0, 0.85);
 	}
 
 	.nav-content
@@ -148,12 +149,14 @@
 		
 		margin: 4px 0px 2px 0px;
 		transition: 1s;
+		
 	}
 
 	.active-toggle #accordeon-menu-strip3{
 		
 		margin: 2px 0px 4px 0px;
 		transition: 1s;
+		
 	}
 	
 	.accordeon-menu-strip
