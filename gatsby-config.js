@@ -5,5 +5,40 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Tetiana Muchychka`,
+        short_name: `Muchychka`,
+        start_url: `/`,
+        background_color: `#000000`,
+        theme_color: `#000000`,
+        display: `standalone`,
+        icon: `src/favicons/icon.png`, // This path is relative to the root of the site.
+        icons: [
+              {
+                src: `/favicons/icon-192x192.png`,
+                sizes: `192x192`,
+                type: `image/png`,
+              },
+              {
+                src: `/favicons/icon-512x512.png`,
+                sizes: `512x512`,
+                type: `image/png`,
+              },
+        ],
+        localize: [
+          {
+            start_url: `/?lang=de`,
+            lang: `de`,
+            name: `Tetiana Muchychka - Akkordeonistin`,
+            short_name: `Muchychka`,
+            description: `Tetiana Muchychka - junge Akkordeonistin, die einen eigenen Zauber mit bestechender Meisterschaft entfacht.`,
+          },
+        ],
+      },
+    },
+  ],
+  
 }
