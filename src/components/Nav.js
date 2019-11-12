@@ -6,7 +6,9 @@ export default class Nav  extends React.Component{
 
     componentDidMount()
     {
-       // window.onscroll = this.handleStickyNav;
+      let dropdown = document.getElementsByClassName('dropdown-item')[0];
+      console.log(dropdown);
+      dropdown.onClick= this.toggleDropDown;
     }
 
     toggleMenu()
@@ -39,10 +41,9 @@ export default class Nav  extends React.Component{
         }
     }
 
-    handleStickyNav(e)
+    toggleDropDown(e)
     {
-        let nav = document.getElementById("nav");
-        nav.style.top = window.pageYOffset+'px';
+        console.log(1);
     }
 
     render(){
@@ -59,38 +60,38 @@ export default class Nav  extends React.Component{
                         </div>
 
                         <div className="nav-content">
-                        <div className="flex-column">
+                        <div className="flex-column menu-item">
                             <a href={"/?lang="+ LANGUAGE.currentLang()}>{LANGUAGE.t('home')}</a>
                             <div className="underline"/>
                         </div>
 
-                        <div className="flex-column">
+                        <div className="flex-column menu-item">
                             <a href={"/biography/?lang="+ LANGUAGE.currentLang()}>{LANGUAGE.t('biography')}</a>
                             <div className="underline"/>
                         </div>
                         
-                        <div className="flex-column">
-                            <a href={"/music/?lang="+ LANGUAGE.currentLang()}>{LANGUAGE.t('music_header')}</a>
+                        <div className="flex-column menu-item dropdown-item">
+                            <a href="#">{LANGUAGE.t('multimedia_header')}</a>
                             <div className="underline"/>
-                        </div>
 
-                        <div className="flex-column">
-                            <a href={"/video/?lang="+ LANGUAGE.currentLang()}>{LANGUAGE.t('video_header')}</a>
-                            <div className="underline"/>
+                            <div className="dropdown-submenu">
+                                <a href={"/music/?lang="+ LANGUAGE.currentLang()}>{LANGUAGE.t('music_header')}</a>
+                                <a href={"/video/?lang="+ LANGUAGE.currentLang()}>{LANGUAGE.t('video_header')}</a>
+                            </div>
                         </div>
         
-                        <div className="flex-column">
+                        <div className="flex-column menu-item">
                             <a href={"/concerts/?lang="+ LANGUAGE.currentLang()}>{LANGUAGE.t('concerts')}</a>
                             <div className="underline"/>
                         </div>
         
-                        <div className="flex-column">
-                            <a href="#">{LANGUAGE.t('media')}</a>
+                        <div className="flex-column menu-item">
+                            <a href={"/media/?lang="+ LANGUAGE.currentLang()}>{LANGUAGE.t('media_header')}</a>
                             <div className="underline"/>
                         </div>
-        
+
                         <div className="flex-column">
-                        <a href={"/contacts/?lang="+ LANGUAGE.currentLang()}>{LANGUAGE.t('contact')}</a>    
+                            <a href={"/contacts/?lang="+ LANGUAGE.currentLang()}>{LANGUAGE.t('contact')}</a>    
                             <div className="underline"/>
                         </div>
         

@@ -43,7 +43,7 @@ export default class MusicPage extends React.Component
 
             <div className="flex-column album-section">
              
-              <img className="background-img accordeon-img"/>
+              <img className="background-img tetiana3-img"/>
               <span className="album-title">{this.state.LANGUAGE.t('video_header')}</span>
               <br /><br /><br /><br /><br />
              

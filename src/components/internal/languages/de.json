@@ -8,7 +8,7 @@
         "biography_first_paragraph":"First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography.",
         "biography_second_paragraph":"Second Paragraph of Biography. Second Paragraph of Biography. Second Paragraph of Biography. Second Paragraph of Biography. Second Paragraph of Biography. Second Paragraph of Biography. ",
         "concerts": "Konzerte",
-        "media": "Presse",
+        "media_header": "Presse",
         "contact": "Kontakt",
         "contacts_business": "",
         "contacts_email": "tetianamuchychka@gmail.com",
@@ -18,6 +18,7 @@
         "listen_music":"Musik hören",
         "music_header":"Musik",
         "video_header":"Videos",
+        "multimedia_header":"Multimedia",
         "album_title":"Repertoire",
         "download":"Herunterladen"
       }
