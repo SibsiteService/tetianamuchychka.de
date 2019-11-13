@@ -10,7 +10,7 @@ import Layout from "../components/Layout";
 import AudioPlayer from "../components/AudioPlayer";
 
 import audio1 from "../assets/audio/Tetiana-Muchychka-Track-05.mp3";
-import audio2 from "../assets/audio/Tetiana-Muchychka-Track-05.mp3";
+import audio2 from "../assets/audio/Tetiana-Muchychka-Track-06.mp3";
 
 
 export default class MusicPage extends React.Component
