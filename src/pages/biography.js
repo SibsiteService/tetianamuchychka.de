@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby"
+import { Helmet } from "react-helmet";
 import Querystring from "querystring";
 
 import Language from "../components/internal/languages/Language"
@@ -52,6 +52,11 @@ export default class BiographyPage extends React.Component
         return( 
         <LanguageContext.Provider value={this.state.LANGUAGE}>
           <Layout toggleLanguage ={this.toggleLanguage}>
+            <Helmet>
+              <meta charSet="utf-8" />
+              <title>Tetiana Muchychka - Biographie</title>
+              <meta name="description" content="Offizielle Website von Tetiana Muchychka - Akkordeonistin. Hier finden Sie die aktuelle Biographie, Fotos, Tonaufnahmen und Videos der jungen Preis- und Auszeichnungsträgerin - Tetiana Muchychka. Informationen über Konzertanfragen und weitere Details können im Kontaktbereich angefordert werden."/>
+            </Helmet>
             <div className="flex-column biography-section">
               <div className="background-underlay"/>
                 <span className="section-title biography-title">{this.state.LANGUAGE.t('biography')}</span>

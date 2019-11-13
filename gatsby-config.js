@@ -28,15 +28,6 @@ module.exports = {
                 type: `image/png`,
               },
         ],
-        localize: [
-          {
-            start_url: `/?lang=de`,
-            lang: `de`,
-            name: `Tetiana Muchychka - Akkordeonistin`,
-            short_name: `Muchychka`,
-            description: `Tetiana Muchychka - junge Akkordeonistin, die einen eigenen Zauber mit bestechender Meisterschaft entfacht.`,
-          },
-        ],
       },
     },
   ],

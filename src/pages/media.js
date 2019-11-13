@@ -1,6 +1,6 @@
 import React from "react";
 import Querystring from "querystring";
-
+import { Helmet } from "react-helmet";
 import '../assets/css/media.css';
 
 import Language from "../components/internal/languages/Language"
@@ -41,7 +41,12 @@ export default class MediaPage extends React.Component
         return( 
         <LanguageContext.Provider value={this.state.LANGUAGE}>
           <Layout toggleLanguage ={this.toggleLanguage}>
-              <img className="background-img accordeon-img"/>
+            <Helmet>
+              <meta charSet="utf-8" />
+              <title>Tetiana Muchychka - Presse</title>
+              <meta name="description" content="Offizielle Website von Tetiana Muchychka - Akkordeonistin. Hier finden Sie die aktuelle Biographie, Fotos, Tonaufnahmen und Videos der jungen Preis- und Auszeichnungsträgerin - Tetiana Muchychka. Informationen über Konzertanfragen und weitere Details können im Kontaktbereich angefordert werden."/>
+            </Helmet>
+              <img className="media-background-img accordeon-img"/>
                 <div className="flex-column media-section">
                     <div className="flex-column media-card">
                         <div className="media-card-title" >Media Title</div>

@@ -1,6 +1,6 @@
 import React from "react";
 import Querystring from "querystring";
-
+import { Helmet } from "react-helmet";
 import '../assets/css/music.css';
 
 import Language from "../components/internal/languages/Language"
@@ -9,7 +9,9 @@ import {LanguageContext} from "../components/internal/languages/LanguageContext"
 import Layout from "../components/Layout";
 import AudioPlayer from "../components/AudioPlayer";
 
-import audio1 from "../assets/audio/Sleep Away.mp3";
+import audio1 from "../assets/audio/Tetiana-Muchychka-Track-05.mp3";
+import audio2 from "../assets/audio/Tetiana-Muchychka-Track-05.mp3";
+
 
 export default class MusicPage extends React.Component
 {
@@ -43,13 +45,20 @@ export default class MusicPage extends React.Component
         return( 
         <LanguageContext.Provider value={this.state.LANGUAGE}>
           <Layout toggleLanguage ={this.toggleLanguage}>
-            
+            <Helmet>
+              <meta charSet="utf-8" />
+              <title>Tetiana Muchychka - Audio</title>
+              <meta name="description" content="Offizielle Website von Tetiana Muchychka - Akkordeonistin. Hier finden Sie die aktuelle Biographie, Fotos, Tonaufnahmen und Videos der jungen Preis- und Auszeichnungsträgerin - Tetiana Muchychka. Informationen über Konzertanfragen und weitere Details können im Kontaktbereich angefordert werden."/>
+            </Helmet>
             <div className="flex-column album-section">
               <img className="background-img tetiana3-img"/>
               <span className="album-title">{this.state.LANGUAGE.t('music_header')}</span> 
+              
               <AudioPlayer audioSrc={audio1}/>
-              <AudioPlayer audioSrc={audio1}/>
-              <AudioPlayer audioSrc={audio1}/>
+                         
+              <AudioPlayer audioSrc={audio2}/>
+              
+              
             </div>
             
 
