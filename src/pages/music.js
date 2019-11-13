@@ -54,9 +54,9 @@ export default class MusicPage extends React.Component
               <img className="background-img tetiana3-img"/>
               <span className="album-title">{this.state.LANGUAGE.t('music_header')}</span> 
               
-              <AudioPlayer audioSrc={audio1}/>
+              <AudioPlayer audioSrc={audio1} trackName={this.state.LANGUAGE.t('music_track_01_name')}/>
                          
-              <AudioPlayer audioSrc={audio2}/>
+              <AudioPlayer audioSrc={audio2} trackName={this.state.LANGUAGE.t('music_track_02_name')}/>
               
               
             </div>
