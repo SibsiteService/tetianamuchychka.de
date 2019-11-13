@@ -94,7 +94,7 @@ body
 	background-size: cover;
 }
 
-.accordeon-img
+.tetiana3-img
 {
 	background: no-repeat center top 0px url("../images/Tetiana_15_reduced.jpg");
 	background-size: cover;
@@ -122,7 +122,7 @@ body
 {
 	min-width: 100px;
 	align-self: bottom;
-	margin-top: 7%;
+	margin-top: 8%;
 }
 
 a.social-icon
@@ -163,16 +163,41 @@ a.social-icon:hover
 	background: rgba(0, 0, 0, 0.8);
 	transition: 1s;
 }
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 512px)
 {
 	.section-header
 {
-	margin-top: 23%;
+	margin-top: 60%;
 	margin-right: 0.5%;
 	font-size: 70px;
 	color:#d33333;
 	text-align: right;
 	text-shadow: 1px 1px 2px #000000;
 	
+}
+.social-container
+{
+	min-width: 100px;
+	align-self: bottom;
+	margin-top: 1%;
+}
+}
+@media screen and (max-width: 1024px)
+{
+	.section-header
+{
+	margin-top: 35%;
+	margin-right: 0.5%;
+	font-size: 70px;
+	color:#d33333;
+	text-align: right;
+	text-shadow: 1px 1px 2px #000000;
+	
+}
+.social-container
+{
+	min-width: 100px;
+	align-self: bottom;
+	margin-top: 1%;
 }
 }

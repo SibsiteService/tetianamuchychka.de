@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Querystring from "querystring";
 
 import '../assets/css/concerts.css';
@@ -40,6 +41,11 @@ export default class ConcertsPage extends React.Component
         return( 
         <LanguageContext.Provider value={this.state.LANGUAGE}>
           <Layout toggleLanguage ={this.toggleLanguage}>
+            <Helmet>
+              <meta charSet="utf-8" />
+              <title>Tetiana Muchychka - Konzerte</title>
+              <meta name="description" content="Offizielle Website von Tetiana Muchychka - Akkordeonistin. Hier finden Sie die aktuelle Biographie, Fotos, Tonaufnahmen und Videos der jungen Preis- und Auszeichnungsträgerin - Tetiana Muchychka. Informationen über Konzertanfragen und weitere Details können im Kontaktbereich angefordert werden."/>
+            </Helmet>
             <div className="background-underlay"/>
             <div className="flex-column concerts-section">
 

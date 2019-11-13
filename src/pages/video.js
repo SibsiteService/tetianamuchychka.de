@@ -1,6 +1,6 @@
 import React from "react";
 import Querystring from "querystring";
-
+import { Helmet } from "react-helmet";
 import '../assets/css/music.css';
 
 import Language from "../components/internal/languages/Language"
@@ -40,10 +40,14 @@ export default class MusicPage extends React.Component
         return( 
         <LanguageContext.Provider value={this.state.LANGUAGE}>
           <Layout toggleLanguage ={this.toggleLanguage}>
-
+            <Helmet>
+              <meta charSet="utf-8" />
+              <title>Tetiana Muchychka - Video</title>
+              <meta name="description" content="Offizielle Website von Tetiana Muchychka - Akkordeonistin. Hier finden Sie die aktuelle Biographie, Fotos, Tonaufnahmen und Videos der jungen Preis- und Auszeichnungsträgerin - Tetiana Muchychka. Informationen über Konzertanfragen und weitere Details können im Kontaktbereich angefordert werden."/>
+            </Helmet>
             <div className="flex-column album-section">
              
-              <img className="background-img accordeon-img"/>
+              <img className="background-img tetiana3-img"/>
               <span className="album-title">{this.state.LANGUAGE.t('video_header')}</span>
               <br /><br /><br /><br /><br />
              
@@ -54,7 +58,7 @@ export default class MusicPage extends React.Component
                       webkitallowfullscreen="true"
                       mozallowfullscreen="true"
                       allowFullScreen frameborder="0">
-      </iframe>       
+              </iframe>       
             </div>
 
            

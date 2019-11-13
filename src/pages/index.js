@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Querystring from "querystring";
 
 import '../assets/css/index.css';
@@ -48,6 +49,11 @@ export default class IndexPage extends React.Component
         return( 
         <LanguageContext.Provider value={this.state.LANGUAGE}>
           <Layout toggleLanguage ={this.toggleLanguage}>
+            <Helmet>
+              <meta charSet="utf-8" />
+              <title>Tetiana Muchychka - Akkordeonistin - Best of NRW 2019</title>
+              <meta name="description" content="Offizielle Website von Tetiana Muchychka - Akkordeonistin. Hier finden Sie die aktuelle Biographie, Fotos, Tonaufnahmen und Videos der jungen Preis- und Auszeichnungsträgerin - Tetiana Muchychka. Informationen über Konzertanfragen und weitere Details können im Kontaktbereich angefordert werden."/>
+            </Helmet>
             <div className="flex-column flex-sa main-content-container">
               <Section>
                 <img className="background-img tetiana1-img"/>

@@ -1,0 +1,99 @@
+.media-section
+{
+	align-items: center;
+    padding-bottom: 50px;
+}
+
+.media-card
+{
+    min-width: 70%; 
+    margin: 50px 50px 0 50px;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.media-card-content
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.media-card-img-example{
+    background: url("../images/Tetiana_03_reduced.jpg"); 
+}
+
+.media-card-img
+{
+    min-width: 200px;
+    min-height: 200px;
+
+    background-position: center ;
+    background-size: cover ;
+}
+
+.media-card-title
+{
+    color: white;
+    padding: 7px;
+    background:  rgba(0, 0, 0, 0.3);
+}
+
+.media-card-description
+{
+    width: 100%;
+    min-height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.media-card-description a 
+{
+   text-align: right;
+   background:  rgba(0, 0, 0, 0.3);
+   padding: 3px;
+   padding-right: 10px;
+   color: #d33333;
+   font-weight: 600;
+}
+
+.description-text
+{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.underlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: -1;
+    background: black;
+}
+.media-background-img
+{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	filter: brightness(0.5);
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+
+.accordeon-img
+{
+	background: no-repeat center top 0px url("../images/Tetiana_03_reduced.jpg");
+	background-size: cover;
+}
+
+@media screen and (max-width: 800px)
+{
+    .media-card-content
+    {
+        flex-direction: column;
+    }
+}
