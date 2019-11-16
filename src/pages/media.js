@@ -9,7 +9,7 @@ import {LanguageContext} from "../components/internal/languages/LanguageContext"
 import Layout from "../components/Layout";
 
 import article_2_img from "../assets/images/borkenerzeitung.png"
-import article_3_img from "../assets/images/stadtlohn-klassik.png"
+import article_3_img from "../assets/images/stadtlohn-klassik.PNG"
 
 
 export default class MediaPage extends React.Component
