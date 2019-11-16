@@ -8,7 +8,6 @@
         "biography_first_paragraph":"First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography.",
         "biography_second_paragraph":"Second Paragraph of Biography. Second Paragraph of Biography. Second Paragraph of Biography. Second Paragraph of Biography. Second Paragraph of Biography. Second Paragraph of Biography. ",
         "concerts": "Концерты",
-        "media_header": "Пресса",
         "contact": "Контакты",
         "contacts_business": "По вопросам сотрудничества:",
         "contacts_email": "tetianamuchychka@gmail.com",
@@ -23,7 +22,20 @@
         "video_header":"Видео",
         "multimedia_header":"Медиа",
         "album_title":"Заголовок альбома",
-        "download":"Скачать"
+        "download":"Скачать",
+        "media_header": "Пресса",
+        "media_details": "Подробнее",
+        "media_article_1_header": "Радость от игры и ловкости пальцев: Татьяна Мучичка выступает в Хаус Марк - Текленбург",
+        "media_article_1_description": "Радость от игры и ловкости пальцев: Татьяна Мучичка выступает в Хаус Марк - Текленбург",
+        "media_article_2_description": "",
+        "media_article_3_description": "",
+        "media_article_4_description": "",
+        "media_article_5_description": "",
+        "media_article_6_description": "",
+        "media_article_7_description": "",
+        "media_article_8_description": "",
+        "media_article_9_description": ""
+
       }
     }
  }

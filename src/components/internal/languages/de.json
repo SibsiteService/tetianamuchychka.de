@@ -8,7 +8,6 @@
         "biography_first_paragraph":"First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography.",
         "biography_second_paragraph":"Second Paragraph of Biography. Second Paragraph of Biography. Second Paragraph of Biography. Second Paragraph of Biography. Second Paragraph of Biography. Second Paragraph of Biography. ",
         "concerts": "Konzerte",
-        "media_header": "Presse",
         "contact": "Kontakt",
         "contacts_business": "Für weitere Informationen und Konzertanfragen wenden Sie sich bitte an:",
         "contacts_email": "tetianamuchychka@gmail.com",
@@ -23,7 +22,27 @@
         "video_header":"Videos",
         "multimedia_header":"Media",
         "album_title":"Repertoire",
-        "download":"Herunterladen"
+        "download":"Herunterladen",
+        "media_header": "Presse",
+        "media_details": "Weitere Details",
+        "media_article_1_header": "Westfälische Nachrichten - November 2018",
+        "media_article_2_header": "Borkener Zeitung - September 2019",
+        "media_article_3_header": "Akkordeon virtuos in Szene gesetzt - September 2018",
+        "media_article_4_header": "Westfälische Nachrichten - November 2018",
+        "media_article_5_header": "Westfälische Nachrichten - November 2018",
+        "media_article_6_header": "Westfälische Nachrichten - November 2018",
+        "media_article_7_header": "Westfälische Nachrichten - November 2018",
+        "media_article_8_header": "Westfälische Nachrichten - November 2018",
+        "media_article_9_header": "Westfälische Nachrichten - November 2018",
+        "media_article_1_description": "Spielfreude und Fingerfertigkeit: Tetiana Muchychka konzertiert in Haus Marck - Tecklenburg",
+        "media_article_2_description": "Ein ganzes Orchester hervorgezaubert - Konzert des Kulturkreises Schloss Raesfeld - Raesfeld",
+        "media_article_3_description": "Stadtlohn Klassik - Geschwister-Scholl-Gymnasium - Düsseldorf",
+        "media_article_4_description": "",
+        "media_article_5_description": "",
+        "media_article_6_description": "",
+        "media_article_7_description": "",
+        "media_article_8_description": "",
+        "media_article_9_description": ""
       }
     }
  }

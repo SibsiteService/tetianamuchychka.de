@@ -6,17 +6,18 @@
 
 .album-title {
     align-self: end;
-	margin-left: 70%;
+	margin-left: 10%;
 	font-size: 70px;
     color: #d33333;
     border-bottom: 1px solid #C6C7BF;
+    text-shadow: 1px 1px 2px #d33333;
 }
 
 .audio-player-container
 {
     width: 300px;
     background: rgba(128, 128, 128, 0.8);
-    margin-top: 50px;
+    margin-top: 80px;
     align-self: end;
     margin-left: 70%;
 }
@@ -36,7 +37,7 @@
 
 .track-title
 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 700;
     font-size: 16px;
     margin-left: 10px;

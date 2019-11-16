@@ -4,9 +4,18 @@
     padding-bottom: 50px;
 }
 
+.media-title
+{
+    border-bottom: 1px solid #d33333;
+    font-size: 70px;
+    color: #ffffff;
+    margin-left: 5%;
+}
+
 .media-card
 {
-    min-width: 70%; 
+    width: 70%;
+     
     margin: 50px 50px 0 50px;
     background: rgba(0, 0, 0, 0.35);
 }
@@ -17,17 +26,50 @@
     flex-direction: row;
 }
 
-.media-card-img-example{
-    background: url("../images/Tetiana_03_reduced.jpg"); 
+
+.media-card-article-1-photo{
+    background: url("../images/Logo_WN.png"); 
+}
+.media-card-article-2-photo{
+    background: url("../images/borkenerzeitung.png"); 
+}
+.media-card-article-3-photo{
+    background: url("../images/stadtlohn-klassik.png"); 
+}
+.media-card-article-4-photo{
+    background: url("../images/Logo_WN.png"); 
 }
 
-.media-card-img
+.media-card-img-small
 {
+    
     min-width: 200px;
     min-height: 200px;
 
     background-position: center ;
     background-size: cover ;
+ 
+}
+.media-card-img-medium
+{
+    
+    min-width: 500px;
+    min-height: 450px;
+
+    background-position: left top ;
+    background-size: cover ;
+ 
+}
+
+.media-card-img-broad
+{
+    
+    min-width: 800px;
+    min-height: 400px;
+
+    background-position: left top ;
+    background-size: cover ;
+ 
 }
 
 .media-card-title
@@ -61,6 +103,7 @@
 {
     padding-left: 10px;
     padding-top: 10px;
+    overflow-wrap: break-word;
 }
 
 .underlay
@@ -84,9 +127,9 @@
 	left: 0;
 }
 
-.accordeon-img
+.tetiana-presse-img
 {
-	background: no-repeat center top 0px url("../images/Tetiana_03_reduced.jpg");
+	background: no-repeat center top 0px url("../images/Tetiana_04_reduced.jpg");
 	background-size: cover;
 }
 
@@ -96,4 +139,37 @@
     {
         flex-direction: column;
     }
+
+    .media-card-img-small
+{
+    
+    min-width: 200px;
+    min-height: 200px;
+
+    background-position: center ;
+    background-size: cover ;
+ 
+}
+.media-card-img-medium
+{
+    
+    min-width: 200px;
+    min-height: 200px;
+
+    background-position: top left ;
+    background-size: cover ;
+ 
+}
+
+.media-card-img-broad
+{
+    
+    min-width: 200px;
+    min-height: 200px;
+
+    background-position: left top ;
+    background-size: cover ;
+ 
+}
+
 }
