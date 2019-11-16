@@ -50,7 +50,13 @@
     background-size: cover;
     margin-top: 20px;
 }
-.tetiana3-img
+.tetiana-contacts-img
+{
+	background: no-repeat center top 0px url("../images/Tetiana_03_reduced.jpg");
+    background-size: cover;
+    margin-top: 20px;
+}
+.tetiana-music-video-img
 {
 	background: no-repeat center top 0px url("../images/Tetiana_15_reduced.jpg");
     background-size: cover;

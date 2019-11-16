@@ -8,7 +8,6 @@
         "biography_first_paragraph":"First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography. First Paragraph of Biography.",
         "biography_second_paragraph":"Second Paragraph of Biography. Second Paragraph of Biography. Second Paragraph of Biography. Second Paragraph of Biography. Second Paragraph of Biography. Second Paragraph of Biography. ",
         "concerts": "Concerts",
-        "media_header": "Media",
         "contact": "Contact",
         "contacts_business": "For further information and booking please contact:",
         "contacts_email": "tetianamuchychka@gmail.com",
@@ -23,7 +22,18 @@
         "video_header":"Video",
         "multimedia_header":"Media",
         "album_title":"Album Title",
-        "download":"Download"
+        "download":"Download",
+        "media_header": "Media",
+        "media_details": "more details",
+        "media_article_1_description": "Joy of play and dexterity: Tetiana Muchychka performs in Haus Marck - Tecklenburg",
+        "media_article_2_description": "",
+        "media_article_3_description": "",
+        "media_article_4_description": "",
+        "media_article_5_description": "",
+        "media_article_6_description": "",
+        "media_article_7_description": "",
+        "media_article_8_description": "",
+        "media_article_9_description": ""
       }
     }
  }

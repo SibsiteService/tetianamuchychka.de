@@ -184,7 +184,8 @@ a.social-icon:hover
 }
 @media screen and (max-width: 1024px)
 {
-	.section-header
+
+.section-header
 {
 	margin-top: 35%;
 	margin-right: 0.5%;

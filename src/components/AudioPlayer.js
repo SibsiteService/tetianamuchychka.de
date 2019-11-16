@@ -100,7 +100,7 @@ export default class AudioPlayer  extends React.Component{
                 {
                      LANGUAGE => (
                          <div className="flex-column audio-player-container">
-                             <span className="track-title">Title</span>
+                            <span className="track-title">{this.props.trackName}</span>
                              <div className="flex-row flex-sa audio-player-body">
                                  <button onClick={this.toggleAudio} className="control-button fa fa-play"></button>
 
