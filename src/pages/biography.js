@@ -7,7 +7,6 @@ import {LanguageContext} from "../components/internal/languages/LanguageContext"
 
 import Layout from "../components/Layout";
 
-import "../assets/css/index.css"
 import "../assets/css/biography.css"
 
 import biography_ru from "../assets/biography/Biography_ru.pdf"
@@ -54,7 +53,7 @@ export default class BiographyPage extends React.Component
           <Layout toggleLanguage ={this.toggleLanguage}>
             <Helmet>
               <meta charSet="utf-8" />
-              <title>Tetiana Muchychka - Biographie</title>
+              <title>{this.state.LANGUAGE.t('name_header')+" - " + this.state.LANGUAGE.t('biography')}</title>
               <meta name="description" content="Offizielle Website von Tetiana Muchychka - Akkordeonistin. Hier finden Sie die aktuelle Biographie, Fotos, Tonaufnahmen und Videos der jungen Preis- und Auszeichnungsträgerin - Tetiana Muchychka. Informationen über Konzertanfragen und weitere Details können im Kontaktbereich angefordert werden."/>
             </Helmet>
             <div className="flex-column biography-section">

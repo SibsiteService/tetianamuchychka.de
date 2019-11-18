@@ -1,12 +1,12 @@
 import React from "react";
 import Querystring from "querystring";
 import { Helmet } from "react-helmet";
-import '../assets/css/media.css';
 
 import Language from "../components/internal/languages/Language"
 import {LanguageContext} from "../components/internal/languages/LanguageContext"
 
 import Layout from "../components/Layout";
+import '../assets/css/media.css';
 
 import article_1_img from "../assets/images/article_1.jpg"
 import article_2_img from "../assets/images/borkenerzeitung.png"
@@ -17,7 +17,6 @@ import article_6_img from "../assets/images/article_6.jpg"
 import article_7_img from "../assets/images/article_7.jpg"
 import article_8_pdf from "../assets/presse/bonner_rundschau.pdf"
 import article_9_img from "../assets/images/article_9.png"
-
 
 
 export default class MediaPage extends React.Component
@@ -54,7 +53,7 @@ export default class MediaPage extends React.Component
           <Layout toggleLanguage ={this.toggleLanguage}>
             <Helmet>
               <meta charSet="utf-8" />
-              <title>Tetiana Muchychka - Presse</title>
+              <title>{this.state.LANGUAGE.t('name_header')+" - " + this.state.LANGUAGE.t('media_header')}</title>
               <meta name="description" content="Offizielle Website von Tetiana Muchychka - Akkordeonistin. Hier finden Sie die aktuelle Biographie, Fotos, Tonaufnahmen und Videos der jungen Preis- und Auszeichnungsträgerin - Tetiana Muchychka. Informationen über Konzertanfragen und weitere Details können im Kontaktbereich angefordert werden."/>
             </Helmet>
               <img className="media-background-img tetiana-presse-img"/>

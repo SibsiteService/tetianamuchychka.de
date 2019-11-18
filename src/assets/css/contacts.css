@@ -26,12 +26,14 @@
 {
     color: #C6C7BF;
     width: 50%;
+    font-size: 25px;
 }
 
 .biography-title
 {
     border-bottom: 1px solid #d33333;
     font-size: 70px;
+    color: #ffffff;
 }
 
 .biography-img
@@ -47,6 +49,18 @@
 	background: no-repeat center top 0px url("../images/Tetiana_07.jpg");
     background-size: cover;
     margin-top: 20px;
+}
+.tetiana-contacts-img
+{
+	background: no-repeat center top 0px url("../images/Tetiana_03_reduced.jpg");
+    background-size: cover;
+    margin-top: 20px;
+}
+.tetiana-music-video-img
+{
+	background: no-repeat center top 0px url("../images/Tetiana_15_reduced.jpg");
+    background-size: cover;
+   
 }
 
 @media screen and (max-width: 990px)
