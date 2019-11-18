@@ -143,23 +143,7 @@ export default class MediaPage extends React.Component
                             </div>
                         </div>
                     </div>
-                    <div className="flex-column media-card">
-                        <div className="media-card-title" >{this.state.LANGUAGE.t('media_article_9_header')}</div>
-                        <div className="media-card-content">
-                        <a data-toggle="modal" target="_blank" href={article_9_img}>
-                          <div className="media-card-img-tall media-card-article-9-photo">
-                          </div>
-                        </a>
-                            <div className="media-card-description">
-                                <span className="description-text">
-                                {this.state.LANGUAGE.t('media_article_9_description')}
-                                </span>
-                                <a data-toggle="modal" target="_blank" href={article_9_img}>
-                                {this.state.LANGUAGE.t('media_details')}
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div className="flex-column media-card">
                         <div className="media-card-title" >{this.state.LANGUAGE.t('media_article_3_header')}</div>
                         <div className="media-card-content">
