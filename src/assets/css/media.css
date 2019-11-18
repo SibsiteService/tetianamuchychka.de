@@ -28,7 +28,7 @@
 
 
 .media-card-article-1-photo{
-    background: url("../images/Logo_WN.png"); 
+    background: url("../images/article_1.jpg"); 
 }
 .media-card-article-2-photo{
     background: url("../images/borkenerzeitung.png"); 
@@ -37,8 +37,24 @@
     background: url("../images/stadtlohn_klassik.png"); 
 }
 .media-card-article-4-photo{
-    background: url("../images/Logo_WN.png"); 
+    background: url("../images/article_4.jpg"); 
 }
+.media-card-article-5-photo{
+    background: url("../images/article_5.png"); 
+}
+.media-card-article-6-photo{
+    background: url("../images/article_6.jpg"); 
+}
+.media-card-article-7-photo{
+    background: url("../images/article_7.jpg"); 
+}
+.media-card-article-8-photo{
+    background: url("../images/article_8.jpg"); 
+}
+.media-card-article-9-photo{
+    background: url("../images/article_9.png"); 
+}
+
 
 .media-card-img-small
 {
@@ -66,6 +82,16 @@
     
     min-width: 800px;
     min-height: 400px;
+
+    background-position: left top ;
+    background-size: cover ;
+ 
+}
+.media-card-img-tall
+{
+    
+    min-width: 400px;
+    min-height: 500px;
 
     background-position: left top ;
     background-size: cover ;
@@ -133,7 +159,7 @@
 	background-size: cover;
 }
 
-@media screen and (max-width: 800px)
+@media screen and (max-width: 900px)
 {
     .media-card-content
     {
@@ -166,6 +192,16 @@
     
     min-width: 200px;
     min-height: 200px;
+
+    background-position: left top ;
+    background-size: cover ;
+ 
+}
+.media-card-img-tall
+{
+    
+    min-width: 200px;
+    min-height: 300px;
 
     background-position: left top ;
     background-size: cover ;
