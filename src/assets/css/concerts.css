@@ -37,6 +37,8 @@
 {
     width: 80%;
     margin-top: 200px;
+    background:#0000007c;
+    
 }
 
 .concert-table tr
@@ -45,13 +47,21 @@
   justify-content: space-around;
   align-items: center;
   min-height: 50px;
-  border-bottom: 1px solid rgba(168, 168, 168, 0.32);
-
+  border-bottom: 1px solid rgba(168, 168, 168, 0.99);
+  text-decoration: none;
+  
+}
+.concert-table tr td:last-child {
+    text-decoration: underline;
+    color: #f4fc8f;
+}
+.click-raw a {
+    display: block;
 }
 
 .concert-table tr:hover
 {
-    background: rgba(162, 162, 162, 0.12);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .concert-table td
@@ -60,11 +70,11 @@
     flex-direction: column; 
     flex: 1;
     font-size: 15px;
-    color: #f33e3e;
+    color: #ffffff;
     text-align: center;
     font-weight:bold;
-    text-shadow: 0.25px 0.25px 0.5px #b92626;
-    
+    text-shadow: 0.1px 0.1px 0.25px #b92626;
+    text-align: left;
 }
 
 
@@ -79,6 +89,7 @@
     {
         flex-direction: column;
         align-items: flex-start;
+        padding: 0.5em;
     }
 
 }
