@@ -2,7 +2,9 @@ import React from "react";
 import Querystring from "querystring";
 import { Helmet } from "react-helmet";
 
-import Gallery from "react-photo-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
+
+import Gallery from "react-image-gallery";
 
 import Language from "../components/internal/languages/Language"
 import {LanguageContext} from "../components/internal/languages/LanguageContext"
@@ -18,25 +20,21 @@ import photo4 from "../assets/images/concerts.png";
 
 let photos = [
     {
-      src: photo1,
-      width: 2,
-      height: 3
+      original: photo1,
+      description  : 'Сюда описание'
     },
     {
-        src: photo2,
-        width: 4,
-        height: 3
-      },
-      {
-        src: photo3,
-        width: 3,
-        height: 4
-      },
-      {
-        src: photo4,
-        width: 5,
-        height: 1.5
-      },
+      original: photo2,
+      description  : 'Сюда описание'
+    },
+    {
+      original: photo3,
+      description  : 'Сюда описание'
+    },
+    {
+      original: photo4, 
+      description  : 'Сюда описание' 
+    },
 ]
 
 export default class PhotoPage extends React.Component
@@ -82,7 +80,7 @@ export default class PhotoPage extends React.Component
             </div>
             <div className="gallery-container">
                 <div className="gallery-wrapper">
-                <Gallery photos={photos} />
+                  <Gallery items={photos} showPlayButton={false}/>
                 </div>
             </div>
            
