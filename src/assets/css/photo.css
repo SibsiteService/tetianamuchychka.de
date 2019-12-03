@@ -1,0 +1,28 @@
+.gallery-container
+{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: black;
+}
+
+.gallery-wrapper
+{
+    max-width: 1000px;
+}
+
+.photo-section
+{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 100px;
+}
+
+.photo-title
+{
+    border-bottom: 1px solid #d33333;
+    font-size: 70px;
+    color: #ffffff;
+} 
