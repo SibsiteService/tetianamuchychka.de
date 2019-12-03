@@ -1,5 +1,6 @@
 .gallery-container
 {
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -8,7 +9,7 @@
 
 .gallery-wrapper
 {
-    max-width: 600px;
+    max-width: 1000px;
 }
 
 .photo-section
