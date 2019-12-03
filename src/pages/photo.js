@@ -2,13 +2,9 @@ import React from "react";
 import Querystring from "querystring";
 import { Helmet } from "react-helmet";
 
-<<<<<<< HEAD
 import "react-image-gallery/styles/css/image-gallery.css";
 
 import Gallery from "react-image-gallery";
-=======
-import Gallery from "react-photo-gallery";
->>>>>>> faf93c16a77736e12be13d0b8e7ca43a64928658
 
 import Language from "../components/internal/languages/Language"
 import {LanguageContext} from "../components/internal/languages/LanguageContext"
