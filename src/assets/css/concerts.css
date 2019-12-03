@@ -1,8 +1,3 @@
-a
-{
-    text-decoration: none;
-}
-
 .concerts-section
 {
 	align-items: center;
@@ -41,9 +36,9 @@ a
 .concert-table
 {
     width: 90%;
-    margin-top: 100px;
+    margin-top: 50px;
     
-    background:#00000054;
+    background:#0000007c;
     
 }
 
@@ -79,6 +74,7 @@ a
     color: #ffffff;
     text-align: center;
     font-weight:bold;
+    text-shadow: 0.1px 0.1px 0.25px #b92626;
     text-align: left;
 }
 

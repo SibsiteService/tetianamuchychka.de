@@ -2,9 +2,7 @@ import React from "react";
 import Querystring from "querystring";
 import { Helmet } from "react-helmet";
 
-import "react-image-gallery/styles/css/image-gallery.css";
-
-import Gallery from "react-image-gallery";
+import Gallery from "react-photo-gallery";
 
 import Language from "../components/internal/languages/Language"
 import {LanguageContext} from "../components/internal/languages/LanguageContext"
@@ -35,75 +33,6 @@ import photo17 from "../assets/images/Tetiana_23.jpg";
 
 let photos = [
     {
-<<<<<<< HEAD
-      original: photo1,
-      
-    },
-    {
-      original: photo2,
-      
-    },
-    {
-      original: photo3,
-      
-    },
-    {
-      original: photo4, 
-       
-    },
-    {
-      original: photo5, 
-      
-    },
-    {
-      original: photo6, 
-      
-    },
-    {
-      original: photo7, 
-      
-    },
-    {
-      original: photo8, 
-       
-    },
-    {
-      original: photo9, 
-      
-    },
-    {
-      original: photo10, 
-      
-    },
-    {
-      original: photo11, 
-      description  : 'Photo: Stefan Pieper' 
-    },
-    {
-      original: photo12, 
-      description  : 'Photo: Lilo Ingenlath-Gegic' 
-    },
-    {
-      original: photo13, 
-      description  : 'Photo: Lilo Ingenlath-Gegic' 
-    },
-    {
-      original: photo14, 
-      description  : 'Photo: Kulturgemeinde Finnentrop' 
-    },
-    {
-      original: photo15, 
-      description  : 'Photo: Kulturgemeinde Finnentrop' 
-    },
-    {
-      original: photo16, 
-      description  : 'Photo: Lisa Kannenbrock' 
-    },
-    {
-      original: photo17, 
-      description  : 'Photo: Lisa Kannenbrock' 
-    },
-=======
       src: photo1,
       width: 2.456,
       height: 3.439
@@ -195,8 +124,7 @@ let photos = [
         width: 3.072,
         height: 2.049
       },
-
->>>>>>> faf93c16a77736e12be13d0b8e7ca43a64928658
+      
 ]
 
 export default class PhotoPage extends React.Component
@@ -206,11 +134,7 @@ export default class PhotoPage extends React.Component
     constructor(props)
     {
       super(props);
-<<<<<<< HEAD
   
-=======
-
->>>>>>> faf93c16a77736e12be13d0b8e7ca43a64928658
       this.state = 
       {
         LANGUAGE: new Language(),
@@ -219,11 +143,7 @@ export default class PhotoPage extends React.Component
       this.toggleLanguage = (lang) =>
       {
         this.context.setLang(lang);
-<<<<<<< HEAD
   
-=======
-
->>>>>>> faf93c16a77736e12be13d0b8e7ca43a64928658
         this.setState(state => ({
           LANGUAGE:this.context
         }));
@@ -250,17 +170,10 @@ export default class PhotoPage extends React.Component
             </div>
             <div className="gallery-container">
                 <div className="gallery-wrapper">
-<<<<<<< HEAD
-                  <Gallery items={photos} showPlayButton={false}/>
-                </div>
-            </div>
-           
-=======
                 <Gallery photos={photos} />
                 </div>
             </div>
-
->>>>>>> faf93c16a77736e12be13d0b8e7ca43a64928658
+           
             </Layout>
         </LanguageContext.Provider> 
         );
@@ -268,7 +181,4 @@ export default class PhotoPage extends React.Component
 }
 
 PhotoPage.contextType = LanguageContext;
-<<<<<<< HEAD
 
-=======
->>>>>>> faf93c16a77736e12be13d0b8e7ca43a64928658
