@@ -89,6 +89,7 @@ export default class Nav  extends React.Component{
                             <div className="dropdown-submenu">
                                 <a href={"/music/?lang="+ LANGUAGE.currentLang()}>{LANGUAGE.t('music_header')}</a>
                                 <a href={"/video/?lang="+ LANGUAGE.currentLang()}>{LANGUAGE.t('video_header')}</a>
+                                <a href={"/photo/?lang="+ LANGUAGE.currentLang()}>{LANGUAGE.t('photo')}</a>
                             </div>
                         </div>
         
