@@ -11,7 +11,6 @@
 .gallery-wrapper
 {
     max-width: 1000px;
-    
 }
 
 .photo-section
@@ -27,4 +26,4 @@
     border-bottom: 1px solid #d33333;
     font-size: 70px;
     color: #ffffff;
-}
+} 
