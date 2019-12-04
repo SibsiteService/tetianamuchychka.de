@@ -2,7 +2,9 @@ import React from "react";
 import Querystring from "querystring";
 import { Helmet } from "react-helmet";
 
-import Gallery from "react-photo-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
+
+import Gallery from "react-image-gallery";
 
 import Language from "../components/internal/languages/Language"
 import {LanguageContext} from "../components/internal/languages/LanguageContext"
@@ -29,101 +31,20 @@ import photo15 from "../assets/images/Tetiana_21.jpg";
 import photo16 from "../assets/images/Tetiana_22.jpg";
 import photo17 from "../assets/images/Tetiana_23.jpg";
 
-
-
 let photos = [
     {
-      src: photo1,
-      width: 2.456,
-      height: 3.439
+      original: photo1,
     },
     {
-        src: photo2,
-        width: 4.981,
-        height: 3.558
-      },
-      {
-        src: photo3,
-        width: 2.398,
-        height: 3.357
-      },
-      {
-        src: photo11,
-        width: 2.100,
-        height: 2.637,
-        title: "Photo: Stefan Pieper"
-      },
-      {
-        src: photo12,
-        width: 4,
-        height: 6,
-        title: "Photo: Lilo Ingenlath-Gegic"
-      },
-      {
-        src: photo13,
-        width: 4,
-        height: 6,
-        title: "Photo: Lilo Ingenlath-Gegic"
-      },
-      {
-        src: photo14,
-        width: 2.4,
-        height: 3.6,
-        title: "Photo: Kulturgemeinde Finnentrop"
-      },
-      {
-        src: photo15,
-        width: 3.6,
-        height: 2.4,
-        title: "Photo: Kulturgemeinde Finnentrop"
-      },
-      {
-        src: photo16,
-        width: 4.8,
-        height: 3.2,
-        title: "Photo: Lisa Kannenbrock"
-      },
-      {
-        src: photo17,
-        width: 5,
-        height: 3.335,
-        title: "Photo: Lisa Kannenbrock"
-      },
-      {
-        src: photo4,
-        width: 5,
-        height: 1.5
-      },
-      {
-        src: photo5,
-        width: 6.642,
-        height: 4.744
-      },
-      {
-        src: photo6,
-        width: 3.541,
-        height: 4.957
-      },
-      {
-        src: photo7,
-        width: 3.355,
-        height: 4.696
-      },
-      {
-        src: photo8,
-        width: 4.544,
-        height: 6.362
-      },
-      {
-        src: photo9,
-        width: 4.441,
-        height: 6.218
-      },
-      {
-        src: photo10,
-        width: 3.072,
-        height: 2.049
-      },
+      original: photo2,
+    },
+    {
+      original: photo3,
+    },
+    {
+      original: photo4, 
+    },
+    
 
 ]
 
@@ -134,7 +55,7 @@ export default class PhotoPage extends React.Component
     constructor(props)
     {
       super(props);
-
+  
       this.state = 
       {
         LANGUAGE: new Language(),
@@ -143,7 +64,7 @@ export default class PhotoPage extends React.Component
       this.toggleLanguage = (lang) =>
       {
         this.context.setLang(lang);
-
+  
         this.setState(state => ({
           LANGUAGE:this.context
         }));
@@ -170,10 +91,10 @@ export default class PhotoPage extends React.Component
             </div>
             <div className="gallery-container">
                 <div className="gallery-wrapper">
-                <Gallery photos={photos} />
+                  <Gallery items={photos} showPlayButton={false}/>
                 </div>
             </div>
-
+           
             </Layout>
         </LanguageContext.Provider> 
         );
@@ -181,3 +102,4 @@ export default class PhotoPage extends React.Component
 }
 
 PhotoPage.contextType = LanguageContext;
+
