@@ -44,6 +44,54 @@ let photos = [
     {
       original: photo4, 
     },
+    /*
+    {
+      original: photo5, 
+    },
+    {
+      original: photo6, 
+    },
+    {
+      original: photo7, 
+    },
+    {
+      original: photo8, 
+    },
+    {
+      original: photo9, 
+    },
+    {
+      original: photo10, 
+    },
+    {
+      original: photo11,
+      description:"Photo: Stefan Pieper" 
+    },
+    {
+      original: photo12,
+      description:"Photo: Lilo Ingenlath-Gegic" 
+    },
+    {
+      original: photo13,
+      description:"Photo: Lilo Ingenlath-Gegic" 
+    },
+    {
+      original: photo14,
+      description:"Photo: Kulturgemeinde Finnentrop" 
+    },
+    {
+      original: photo15,
+      description:"Photo: Kulturgemeinde Finnentrop" 
+    },
+    {
+      original: photo16, 
+      description:"Photo: Lisa Kannenbrock"
+    },
+    {
+      original: photo17,
+      description:"Photo: Lisa Kannenbrock" 
+    },
+    */
     
 
 ]
