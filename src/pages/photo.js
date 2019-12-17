@@ -1,7 +1,7 @@
 import React from "react";
 import Querystring from "querystring";
 import { Helmet } from "react-helmet";
-
+import { render } from "react-dom";
 import Gallery from "react-photo-gallery";
 
 import Language from "../components/internal/languages/Language"
@@ -31,7 +31,7 @@ import photo17 from "../assets/images/Tetiana_23.jpg";
 
 
 
-let photos = [
+export const photos = [
   
  
   {

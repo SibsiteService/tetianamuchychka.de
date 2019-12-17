@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "react-photo-gallery": "npm i react-photo-gallery",
+    
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
@@ -22,7 +22,7 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
-    "react-image-gallery": "^0.9.1",
+    "react-images": "^1.0.0",
     "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^5.1.2"
   },
