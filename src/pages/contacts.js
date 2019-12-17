@@ -59,7 +59,7 @@ export default class BiographyPage extends React.Component
                     </p>
                     
                     <p>
-                    {this.state.LANGUAGE.t('contacts_email')} 
+                    <a href="mailto:tetianamuchychka@gmail.com" target="_blank"> {this.state.LANGUAGE.t('contacts_email')}</a> 
                     </p>
                     
                     <p>

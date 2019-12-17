@@ -8,7 +8,7 @@
 
 .gallery-wrapper
 {
-    max-width: 600px;
+    max-width: 60%;
 }
 
 .photo-section
@@ -24,4 +24,12 @@
     border-bottom: 1px solid #d33333;
     font-size: 70px;
     color: #ffffff;
+}
+@media screen and (max-width: 800px)
+{
+    .gallery-wrapper
+{
+    max-width: 800px;
+}
+
 }

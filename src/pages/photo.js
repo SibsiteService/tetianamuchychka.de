@@ -2,9 +2,7 @@ import React from "react";
 import Querystring from "querystring";
 import { Helmet } from "react-helmet";
 
-import "react-image-gallery/styles/css/image-gallery.css";
-
-import Gallery from "react-image-gallery";
+import Gallery from "react-photo-gallery";
 
 import Language from "../components/internal/languages/Language"
 import {LanguageContext} from "../components/internal/languages/LanguageContext"
@@ -31,69 +29,99 @@ import photo15 from "../assets/images/Tetiana_21.jpg";
 import photo16 from "../assets/images/Tetiana_22.jpg";
 import photo17 from "../assets/images/Tetiana_23.jpg";
 
-let photos = [
-    {
-      original: photo1,
-    },
-    {
-      original: photo2,
-    },
-    {
-      original: photo3,
-    },
-    {
-      original: photo4, 
-    },
-    /*
-    {
-      original: photo5, 
-    },
-    {
-      original: photo6, 
-    },
-    {
-      original: photo7, 
-    },
-    {
-      original: photo8, 
-    },
-    {
-      original: photo9, 
-    },
-    {
-      original: photo10, 
-    },
-    {
-      original: photo11,
-      description:"Photo: Stefan Pieper" 
-    },
-    {
-      original: photo12,
-      description:"Photo: Lilo Ingenlath-Gegic" 
-    },
-    {
-      original: photo13,
-      description:"Photo: Lilo Ingenlath-Gegic" 
-    },
-    {
-      original: photo14,
-      description:"Photo: Kulturgemeinde Finnentrop" 
-    },
-    {
-      original: photo15,
-      description:"Photo: Kulturgemeinde Finnentrop" 
-    },
-    {
-      original: photo16, 
-      description:"Photo: Lisa Kannenbrock"
-    },
-    {
-      original: photo17,
-      description:"Photo: Lisa Kannenbrock" 
-    },
-    */
-    
 
+
+let photos = [
+  
+ 
+  {
+    src: photo5,
+    width: 6.642,
+    height: 4.744
+  },
+  {
+    src: photo17,
+    width: 5,
+    height: 3.335,
+    title: "Photo: Lisa Kannenbrock"
+  },
+  {
+    src: photo6,
+    width: 3.541,
+    height: 4.957
+  },
+  {
+    src: photo7,
+    width: 3.355,
+    height: 4.696
+  },
+  {
+    src: photo8,
+    width: 4.544,
+    height: 6.362
+  },
+  {
+    src: photo9,
+    width: 4.441,
+    height: 6.218
+  },
+  {
+    src: photo10,
+    width: 3.072,
+    height: 2.049
+  },  
+  {
+      src: photo1,
+      width: 4.912,
+      height: 6.878
+    },
+    {
+        src: photo2,
+        width: 4.981,
+        height: 3.558
+      },
+      {
+        src: photo3,
+        width: 2.398,
+        height: 3.357
+      },
+      
+      {
+        
+        src: photo11,
+        width: 2.100,
+        height: 2.637,
+        title: "Photo: Stefan Pieper"
+      },
+    
+      {
+        src: photo12,
+        width: 4,
+        height: 6,
+        title: "Photo: Lilo Ingenlath-Gegic"
+      },
+      
+      {
+        src: photo14,
+        width: 2.4,
+        height: 3.6,
+        title: "Photo: Kulturgemeinde Finnentrop"
+      },
+      {
+        src: photo15,
+        width: 3.6,
+        height: 2.4,
+        title: "Photo: Kulturgemeinde Finnentrop"
+      },
+      {
+        src: photo16,
+        width: 4.8,
+        height: 3.2,
+        title: "Photo: Lisa Kannenbrock"
+      },
+      
+      
+      
 ]
 
 export default class PhotoPage extends React.Component
@@ -139,7 +167,7 @@ export default class PhotoPage extends React.Component
             </div>
             <div className="gallery-container">
                 <div className="gallery-wrapper">
-                  <Gallery items={photos} showPlayButton={false}/>
+                <Gallery photos={photos} />
                 </div>
             </div>
            

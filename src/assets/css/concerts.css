@@ -1,3 +1,5 @@
+
+
 .concerts-section
 {
 	align-items: center;
@@ -8,7 +10,7 @@
 
 .background-underlay
 {
-    position: absolute;
+    position: fixed;
     top:0;
     left:0;
     width: 100%;
@@ -64,7 +66,9 @@
 {
     background: rgba(0, 0, 0, 0.7);
 }
-
+.concert-table a {
+    text-decoration: none;
+    }
 .concert-table td
 {
     display: flex;
