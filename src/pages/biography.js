@@ -67,10 +67,38 @@ export default class BiographyPage extends React.Component
                     <p>
                     {this.state.LANGUAGE.t('biography_second_paragraph')}
                     </p>
+                    <p>
+                    {this.state.LANGUAGE.t('biography_third_paragraph')}
+                    </p>
+                    <p>
+                    {this.state.LANGUAGE.t('biography_fourth_paragraph')}
+                    </p>
+                    <p>
+                    {this.state.LANGUAGE.t('biography_fifth_paragraph')}
+                    </p>
+                    <p>
+                    {this.state.LANGUAGE.t('biography_sixth_paragraph')}
+                    </p>
+                    <p>
+                    {this.state.LANGUAGE.t('biography_seventh_paragraph')}
+                    </p>
+                    <p>
+                    {this.state.LANGUAGE.t('biography_eighth_paragraph')}
+                    </p>
+                    <p>
+                    {this.state.LANGUAGE.t('biography_ninth_paragraph')}
+                    </p>
+                    <p>
+                    {this.state.LANGUAGE.t('biography_tenth_paragraph')}
+                    </p>
+                    <p>
+                    {this.state.LANGUAGE.t('biography_eleventh_paragraph')}
+                    </p>
                        
                    </div>
-                   <div className= "biography-img tetiana2-img"/>
+                   
                 </div>
+                <div className= "biography-img tetiana2-img"/>
                 <div className="flex-row flex-center download-link-container">
                   <a href={biographies["biography_"+this.state.LANGUAGE.currentLang()]} download>{this.state.LANGUAGE.t('download')}</a>               
                 </div>  
@@ -82,4 +110,3 @@ export default class BiographyPage extends React.Component
 }
 
 BiographyPage.contextType = LanguageContext;
-
