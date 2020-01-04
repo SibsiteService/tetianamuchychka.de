@@ -54,12 +54,21 @@ export default class MusicPage extends React.Component
              
               <iframe margin-top="20%" width="450" height="215" 
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      src="https://www.youtube.com/embed/tgbNymZ7vqY"
+                      src="https://www.youtube.com/embed/Ki6HXhtB7ug"
                       frameBorder="0"
                       webkitallowfullscreen="true"
                       mozallowfullscreen="true"
                       allowFullScreen frameborder="0">
-              </iframe>       
+              </iframe>  
+              <br /><br />
+              <iframe margin-top="20%" width="450" height="215" 
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      src="https://www.youtube.com/embed/7_WWz2DSnT8"
+                      frameBorder="0"
+                      webkitallowfullscreen="true"
+                      mozallowfullscreen="true"
+                      allowFullScreen frameborder="0">
+              </iframe>      
             </div>
           </Layout>
         </LanguageContext.Provider> 

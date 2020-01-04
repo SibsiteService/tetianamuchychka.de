@@ -1,4 +1,4 @@
-.biography-section
+.contacts-section
 {
     align-items: center;
     padding-top: 50px;
@@ -7,7 +7,7 @@
     height: 100%;
 }
 
-.biography-container
+.contacts-container
 {
     width: 100%;
     height: 100%;
@@ -22,21 +22,26 @@
 {
     color:#d33333;
 }
-.biography-text
+.contacts-text
 {
     color: #C6C7BF;
     width: 50%;
     font-size: 25px;
 }
+.contacts-text a{
+    text-decoration: none;
+    color: #C6C7BF;
+    
+}
 
-.biography-title
+.contacts-title
 {
     border-bottom: 1px solid #d33333;
     font-size: 70px;
     color: #ffffff;
 }
 
-.biography-img
+.contacts-img
 {
     width: 440px;
     height: 100%;
@@ -44,12 +49,7 @@
 
 }
 
-.tetiana2-img
-{
-	background: no-repeat center top 0px url("../images/Tetiana_07.jpg");
-    background-size: cover;
-    margin-top: 20px;
-}
+
 .tetiana-contacts-img
 {
 	background: no-repeat center top 0px url("../images/Tetiana_03_reduced.jpg");
@@ -65,23 +65,30 @@
 
 @media screen and (max-width: 990px)
 {
-    .biography-container
+    .contacts-container
     {
         flex-direction: column;
         align-items: center;
     }
 
-    .biography-text
+    .contacts-text
     {
         width: 90%;
         text-align: center;
+    }
+    .contacts-text a{
+        text-decoration: none;
+        color: #C6C7BF;
+        width: 90%;
+        font-size: 19px;
     }
 }
 
 @media screen and (max-width: 470px)
 {
-    .biography-img
+    .contacts-img
     {
         width: 95%;
+        
     }
 }
