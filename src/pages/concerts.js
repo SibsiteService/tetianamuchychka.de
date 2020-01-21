@@ -53,6 +53,22 @@ export default class ConcertsPage extends React.Component
 
               <table className="concert-table">
                 <tbody>
+                <a href = "https://www.wasgehtheuteab.de/bochum/e/97dbdecd-a822-444b-b365-4dc3825e689b" target="_blank">
+                    <tr>
+                        <td>
+                            <span className="concert-first-title">
+                            {this.state.LANGUAGE.t('concert_44_date')}
+                            </span>
+                            <span className="concert-second-title">
+                            {this.state.LANGUAGE.t('concert_44_place')}
+                            </span>
+                        </td>
+                        <td>{this.state.LANGUAGE.t('concert_44_city')}</td>
+                        <td>{this.state.LANGUAGE.t('concert_44_event')}</td>
+                        <td>{this.state.LANGUAGE.t('concert_44_additional')}</td>
+                    </tr>
+                 </a>   
+                <a href = "https://livemusicnow-rheinruhr.de/kalender/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
@@ -66,6 +82,8 @@ export default class ConcertsPage extends React.Component
                         <td>{this.state.LANGUAGE.t('concert_43_event')}</td>
                         <td>{this.state.LANGUAGE.t('concert_43_additional')}</td>
                     </tr>
+                 </a>   
+                 <a href = "https://livemusicnow-rheinruhr.de/kalender/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
@@ -79,7 +97,7 @@ export default class ConcertsPage extends React.Component
                         <td>{this.state.LANGUAGE.t('concert_42_event')}</td>
                         <td>{this.state.LANGUAGE.t('concert_42_additional')}</td>
                     </tr>
-                    
+                    </a> 
                     <a href = "https://www.novavita.com/" target="_blank">
                     <tr>
                         <td>
