@@ -54,7 +54,7 @@ export default class MusicPage extends React.Component
              
               <iframe margin-top="20%" width="450" height="215" 
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      src="https://www.youtube.com/embed/Ki6HXhtB7ug"
+                      src="https://www.youtube.com/embed/lGVQdGrZnFA"
                       frameBorder="0"
                       webkitallowfullscreen="true"
                       mozallowfullscreen="true"
@@ -63,7 +63,16 @@ export default class MusicPage extends React.Component
               <br /><br />
               <iframe margin-top="20%" width="450" height="215" 
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      src="https://www.youtube.com/embed/7_WWz2DSnT8"
+                      src="https://www.youtube.com/embed/cN1xDHNkszs"
+                      frameBorder="0"
+                      webkitallowfullscreen="true"
+                      mozallowfullscreen="true"
+                      allowFullScreen frameborder="0">
+              </iframe> 
+              <br /><br />
+              <iframe margin-top="20%" width="450" height="215" 
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      src="https://www.youtube.com/embed/RTIwANbMzPw"
                       frameBorder="0"
                       webkitallowfullscreen="true"
                       mozallowfullscreen="true"
