@@ -6,7 +6,7 @@
 
 .album-title {
     align-self: end;
-	margin-left: 10%;
+	margin-right: 0.5%;
 	font-size: 70px;
     color: #d33333;
     border-bottom: 1px solid #C6C7BF;
@@ -19,7 +19,7 @@
     background: rgba(128, 128, 128, 0.8);
     margin-top: 80px;
     align-self: end;
-    margin-left: 70%;
+    margin-right: 0.5%;
 }
 
 .audio-player-body audio
