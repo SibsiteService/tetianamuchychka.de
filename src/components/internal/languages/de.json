@@ -307,7 +307,10 @@
         "media_article_6_description": "Ungewöhnliches Solo-Instrument begeistert bei Meisterkonzert - Erich Göpfert Stadthalle - Unna",
         "media_article_7_description": "Akkordeonspielerin Tetiana Muchychka begeistert im Schloss Bamenohl - Finnentrop",
         "media_article_8_description": "Tetiana Muchychka überzeugte mit ihrem Akkordeon-Konzert - Beethoven-Haus - Bonn",
-        "media_article_9_description": "Akkordeon entfacht eigenen Zauber - Konzert im Ibach-Haus - Schwelm"
+        "media_article_9_description": "Akkordeon entfacht eigenen Zauber - Konzert im Ibach-Haus - Schwelm",
+
+        "footer_developed_by": "Entwickelt von",
+        "footer_sibsite_link": "Sibsite Service Ltd."
       }
     }
  }
