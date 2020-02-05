@@ -35,7 +35,8 @@ let photos = [
     {
       src: photo1,
       width: 2.456,
-      height: 3.439
+      height: 3.439,
+      
     },
     {
         src: photo2,

@@ -11,15 +11,15 @@
     max-width: 60%;
 }
 .galery-wrapper img{
-    max-width: 800px
+    max-width: 50%;
 }
 
 .photo-section
 {
-    width:100%;
+    width: 90%;
     display: flex;
     justify-content: flex-start;
-    padding-left: 100px;
+    padding-left: 5%;
 }
 
 .photo-title
@@ -29,13 +29,16 @@
     color: #ffffff;
 }
 @media screen and (max-width: 800px)
+
+
 {
+    
     .gallery-wrapper
 {
-    max-width: 800px;
+    max-width: 100%;
 }
 .galery-wrapper img{
-    max-width: 500px
+    max-width: 70%
 }
 
 }
