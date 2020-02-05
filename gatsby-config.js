@@ -31,7 +31,7 @@ module.exports = {
         siteMetadata: {
           siteUrl: `https://www.tetianamuchychka.de`,
         },
-        plugins: [`gatsby-plugin-sitemap`]
+        plugins: [`gatsby-plugin-sitemap`],
       },
     },
   ],
