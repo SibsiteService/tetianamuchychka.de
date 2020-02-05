@@ -43,7 +43,7 @@ export default class ConcertsPage extends React.Component
           <Layout toggleLanguage ={this.toggleLanguage}>
             <Helmet>
               <meta charSet="utf-8" />
-              <title>Tetiana Muchychka - Konzerte/concerts/концерты</title>
+              <title>Tetiana Muchychka - Konzerte</title>
               <meta name="description" content="Aktuelle Konzerte der Akkordeonistin Tetiana Muchychka."/>
               <meta name="keywords" content="Tetiana Muchychka,Akkordeonistin,neue Konzerte,klassische Musik,NRW Kozerte,Best of NRW"></meta>
             </Helmet>
@@ -99,6 +99,21 @@ export default class ConcertsPage extends React.Component
                         <td>{this.state.LANGUAGE.t('concert_42_additional')}</td>
                     </tr>
                     </a> 
+                    <a href = "https://www.folkwang-uni.de/home/hochschule/veranstaltungen/veranstaltungen-des-laufenden-monats/veranstaltung-detail/11056-klassenabend-akkordeon/" target="_blank">
+                    <tr>
+                        <td>
+                            <span className="concert-first-title">
+                            {this.state.LANGUAGE.t('concert_45_date')}
+                            </span>
+                            <span className="concert-second-title">
+                            {this.state.LANGUAGE.t('concert_45_place')}
+                            </span>
+                        </td>
+                        <td>{this.state.LANGUAGE.t('concert_45_city')}</td>
+                        <td>{this.state.LANGUAGE.t('concert_45_event')}</td>
+                        <td>{this.state.LANGUAGE.t('concert_45_additional')}</td>
+                    </tr>
+                    </a>
                     <a href = "https://www.novavita.com/" target="_blank">
                     <tr>
                         <td>

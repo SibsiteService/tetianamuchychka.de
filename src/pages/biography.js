@@ -53,7 +53,7 @@ export default class BiographyPage extends React.Component
           <Layout toggleLanguage ={this.toggleLanguage}>
             <Helmet>
               <meta charSet="utf-8" />
-              <title>Tetiana Muchychka - Biographie/biography/биография</title>
+              <title>Tetiana Muchychka - Biographie</title>
               <meta name="description" content="Tetiana Muchychka ist eine in der Ukraine geborene Akkordeon-Virtuosin. In ihrer Heimatstadt Uzhgorod, bekannt für seine prachtvollen Sakura-Bäume, begann sie im Alter von sechs Jahren das Akkordeonspiel.      Mit 15 Jahren legte sie an der Musikfachschule D. Y. Zador den Grundstein zu ihrem musikalischen Werdegang."/>
               <meta name="keywords" content="Tetiana Muchychka,Akkordeonistin,Best of NRW,offizielle Biografie,Tetiana Muchychka biography,Татьяна Мучичка биография"></meta>
             </Helmet>

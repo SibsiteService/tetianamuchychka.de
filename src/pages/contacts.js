@@ -43,7 +43,7 @@ export default class contactsPage extends React.Component
           <Layout toggleLanguage ={this.toggleLanguage}>
             <Helmet>
               <meta charSet="utf-8" />
-              <title>Tetiana Muchychka - Kontakt/contact/контакты</title>
+              <title>Tetiana Muchychka - Kontakt</title>
               <meta name="description" content="Für weitere Informationen und Konzertanfragen wenden Sie sich bitte an Tetiana Muchychka"/>
               <meta name="keywords" content="Tetiana Muchychka,Akkordeonistin,Best of NRW,Kontakt,Konzertanfrage,Telefonnummer Tetiana Muchychka"></meta>            
             </Helmet>

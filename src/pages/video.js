@@ -43,7 +43,7 @@ export default class MusicPage extends React.Component
           <Layout toggleLanguage ={this.toggleLanguage}>
             <Helmet>
               <meta charSet="utf-8" />
-              <title>Tetiana Muchychka - Video/video/видео</title>
+              <title>Tetiana Muchychka - Video</title>
               <meta name="description" content="Neue Videos von Tatjana Muchichka's Auftritten"/>
               <meta name="keywords" content="Tetiana Muchychka,Akkordeonistin,Best of NRW,Video,Auftritt,Youtube"></meta>
             </Helmet>
@@ -70,15 +70,7 @@ export default class MusicPage extends React.Component
                       mozallowfullscreen="true"
                       allowFullScreen frameborder="0">
               </iframe> 
-              <br /><br />
-              <iframe margin-top="20%" width="450" height="215" 
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      src="https://www.youtube.com/embed/RTIwANbMzPw"
-                      frameBorder="0"
-                      webkitallowfullscreen="true"
-                      mozallowfullscreen="true"
-                      allowFullScreen frameborder="0">
-              </iframe>      
+                    
             </div>
           </Layout>
         </LanguageContext.Provider> 
