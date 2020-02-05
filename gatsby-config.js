@@ -28,6 +28,10 @@ module.exports = {
                 type: `image/png`,
               },
         ],
+        siteMetadata: {
+          siteUrl: `https://www.tetianamuchychka.de`,
+        },
+        plugins: [`gatsby-plugin-sitemap`]
       },
     },
   ],
