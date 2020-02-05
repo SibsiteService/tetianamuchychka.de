@@ -43,8 +43,9 @@ export default class ConcertsPage extends React.Component
           <Layout toggleLanguage ={this.toggleLanguage}>
             <Helmet>
               <meta charSet="utf-8" />
-              <title>{this.state.LANGUAGE.t('name_header')+" - " + this.state.LANGUAGE.t('concerts')}</title>
-              <meta name="description" content="Offizielle Website von Tetiana Muchychka - Akkordeonistin. Hier finden Sie die aktuelle Biographie, Fotos, Tonaufnahmen und Videos der jungen Preis- und Auszeichnungsträgerin - Tetiana Muchychka. Informationen über Konzertanfragen und weitere Details können im Kontaktbereich angefordert werden."/>
+              <title>Tetiana Muchychka - Konzerte/concerts/концерты</title>
+              <meta name="description" content="Aktuelle Konzerte der Akkordeonistin Tetiana Muchychka."/>
+              <meta name="keywords" content="Tetiana Muchychka,Akkordeonistin,neue Konzerte,klassische Musik,NRW Kozerte,Best of NRW"></meta>
             </Helmet>
             <div className="background-underlay"/>
             <div className="flex-column concerts-section">

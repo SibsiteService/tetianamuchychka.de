@@ -47,8 +47,9 @@ export default class MusicPage extends React.Component
           <Layout toggleLanguage ={this.toggleLanguage}>
             <Helmet>
               <meta charSet="utf-8" />
-              <title>{this.state.LANGUAGE.t('name_header')+" - " + this.state.LANGUAGE.t('music')}</title>
-              <meta name="description" content="Offizielle Website von Tetiana Muchychka - Akkordeonistin. Hier finden Sie die aktuelle Biographie, Fotos, Tonaufnahmen und Videos der jungen Preis- und Auszeichnungsträgerin - Tetiana Muchychka. Informationen über Konzertanfragen und weitere Details können im Kontaktbereich angefordert werden."/>
+              <title>Tetiana Muchychka - Musik/music/музыка</title>
+              <meta name="description" content="Tonaufnahmen. U.a. Französische Suite Johann Sebastian Bach, aufgeführt von Tatiana Muchychka"/>
+              <meta name="keywords" content="Tetiana Muchychka,Akkordeonistin,Best of NRW,Musik,Tonaufnahmen,Johann Sebastian Bach"></meta>
             </Helmet>
             <div className="flex-column album-section">
               <img className="background-img tetiana-music-video-img"/>
