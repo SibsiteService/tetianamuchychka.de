@@ -47,7 +47,7 @@ export default class MusicPage extends React.Component
           <Layout toggleLanguage ={this.toggleLanguage}>
             <Helmet>
               <meta charSet="utf-8" />
-              <title>Tetiana Muchychka - Musik/music/музыка</title>
+              <title>Tetiana Muchychka - Musik</title>
               <meta name="description" content="Tonaufnahmen. U.a. Französische Suite Johann Sebastian Bach, aufgeführt von Tatiana Muchychka"/>
               <meta name="keywords" content="Tetiana Muchychka,Akkordeonistin,Best of NRW,Musik,Tonaufnahmen,Johann Sebastian Bach"></meta>
             </Helmet>
