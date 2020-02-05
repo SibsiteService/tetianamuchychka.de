@@ -53,6 +53,7 @@ export default class IndexPage extends React.Component
               <meta charSet="utf-8" />
               <title>Tetiana Muchychka - Akkordeonistin - Best of NRW 2019</title>
               <meta name="description" content="Offizielle Website von Tetiana Muchychka - Akkordeonistin. Hier finden Sie die aktuelle Biographie, Fotos, Tonaufnahmen und Videos der jungen Preis- und Auszeichnungsträgerin - Tetiana Muchychka. Informationen über Konzertanfragen und weitere Details können im Kontaktbereich angefordert werden."/>
+              <meta name="keywords" content="Tetiana Muchychka,Akkordeonistin,offizielle Webseite,Tetiana Muchychka youtube"></meta>            
             </Helmet>
             <div className="flex-column flex-sa main-content-container">
               <Section>

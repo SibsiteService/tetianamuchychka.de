@@ -43,8 +43,9 @@ export default class MusicPage extends React.Component
           <Layout toggleLanguage ={this.toggleLanguage}>
             <Helmet>
               <meta charSet="utf-8" />
-              <title>{this.state.LANGUAGE.t('name_header')+" - " + this.state.LANGUAGE.t('video_header')}</title>
-              <meta name="description" content="Offizielle Website von Tetiana Muchychka - Akkordeonistin. Hier finden Sie die aktuelle Biographie, Fotos, Tonaufnahmen und Videos der jungen Preis- und Auszeichnungsträgerin - Tetiana Muchychka. Informationen über Konzertanfragen und weitere Details können im Kontaktbereich angefordert werden."/>
+              <title>Tetiana Muchychka - Video/video/видео</title>
+              <meta name="description" content="Neue Videos von Tatjana Muchichka's Auftritten"/>
+              <meta name="keywords" content="Tetiana Muchychka,Akkordeonistin,Best of NRW,Video,Auftritt,Youtube"></meta>
             </Helmet>
             <div className="flex-column album-section">
              

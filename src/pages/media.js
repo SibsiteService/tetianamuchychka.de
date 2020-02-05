@@ -53,8 +53,9 @@ export default class MediaPage extends React.Component
           <Layout toggleLanguage ={this.toggleLanguage}>
             <Helmet>
               <meta charSet="utf-8" />
-              <title>{this.state.LANGUAGE.t('name_header')+" - " + this.state.LANGUAGE.t('media_header')}</title>
-              <meta name="description" content="Offizielle Website von Tetiana Muchychka - Akkordeonistin. Hier finden Sie die aktuelle Biographie, Fotos, Tonaufnahmen und Videos der jungen Preis- und Auszeichnungsträgerin - Tetiana Muchychka. Informationen über Konzertanfragen und weitere Details können im Kontaktbereich angefordert werden."/>
+              <title>Tetiana Muchychka - Presse/media/пресса</title>
+              <meta name="description" content="Pressemitteilungen über Tatiana Muchychka. „Man kann sich zwei kleine Kinder vorstellen, die Spaß haben“ - Kunstsignal im Alten Bahnhof Rheydt-Geneicken - Mönchengladbach"/>
+              <meta name="keywords" content="Tetiana Muchychka,Akkordeonistin,Best of NRW,Westfälische Nachrichten,Musikverein Unna e.V.,The New Listener,Bonner Rundschau"></meta>
             </Helmet>
               <img className="media-background-img tetiana-presse-img"/>
               <span className="media-title">{this.state.LANGUAGE.t('media_header')}</span>
