@@ -14,7 +14,6 @@ import "../assets/css/photo.css";
 import photo1 from "../assets/images/Tetiana_05.jpg";
 import photo2 from "../assets/images/Tetiana_09.jpg";
 import photo3 from "../assets/images/Tetiana_04.jpg";
-import photo4 from "../assets/images/concerts.png";
 import photo5 from "../assets/images/Tetiana_03_reduced.jpg";
 import photo6 from "../assets/images/Tetiana_06.jpg";
 import photo7 from "../assets/images/Tetiana_07.jpg";
@@ -31,102 +30,7 @@ import photo17 from "../assets/images/Tetiana_23.jpg";
 
 
 
-let photos = [
-    {
-      src: photo1,
-      width: 2.456,
-      height: 3.439,
-      
-    },
-    {
-        src: photo2,
-        width: 4.981,
-        height: 3.558
-      },
-      {
-        src: photo3,
-        width: 2.398,
-        height: 3.357
-      },
-      {
-        src: photo11,
-        width: 2.100,
-        height: 2.637,
-        title: "Photo: Stefan Pieper"
-      },
-      {
-        src: photo12,
-        width: 4,
-        height: 6,
-        title: "Photo: Lilo Ingenlath-Gegic"
-      },
-      {
-        src: photo13,
-        width: 4,
-        height: 6,
-        title: "Photo: Lilo Ingenlath-Gegic"
-      },
-      {
-        src: photo14,
-        width: 2.4,
-        height: 3.6,
-        title: "Photo: Kulturgemeinde Finnentrop"
-      },
-      {
-        src: photo15,
-        width: 3.6,
-        height: 2.4,
-        title: "Photo: Kulturgemeinde Finnentrop"
-      },
-      {
-        src: photo16,
-        width: 4.8,
-        height: 3.2,
-        title: "Photo: Lisa Kannenbrock"
-      },
-      {
-        src: photo17,
-        width: 5,
-        height: 3.335,
-        title: "Photo: Lisa Kannenbrock"
-      },
-      {
-        src: photo4,
-        width: 5,
-        height: 1.5
-      },
-      {
-        src: photo5,
-        width: 6.642,
-        height: 4.744
-      },
-      {
-        src: photo6,
-        width: 3.541,
-        height: 4.957
-      },
-      {
-        src: photo7,
-        width: 3.355,
-        height: 4.696
-      },
-      {
-        src: photo8,
-        width: 4.544,
-        height: 6.362
-      },
-      {
-        src: photo9,
-        width: 4.441,
-        height: 6.218
-      },
-      {
-        src: photo10,
-        width: 3.072,
-        height: 2.049
-      },
 
-]
 
 export default class PhotoPage extends React.Component
 {
@@ -169,12 +73,152 @@ export default class PhotoPage extends React.Component
             <div className="photo-section">
               <span className="section-title photo-title">{this.state.LANGUAGE.t('photo')}</span>
             </div>
-            <div className="gallery-container">
-                <div className="gallery-wrapper">
-                <Gallery photos={photos} />
-                </div>
+            
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href={photo1}>
+                  <img src={photo1} alt="Photo 1" width="100%" height="auto"/>
+                </a>  
+                <div class="desc">Photo: Sofia Barajas</div>
+              </div>
             </div>
 
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href={photo3}>
+                  <img src={photo3} alt="Photo 2" width="100%" height="auto"/>
+                </a>
+                <div class="desc">Photo: Sofia Barajas</div>
+              </div>
+            </div>
+
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href={photo6}>
+                  <img src={photo6} alt="Photo 3" width="100%" height="auto"/>
+                </a>
+                <div class="desc">Photo: Sofia Barajas</div>
+              </div>
+            </div> 
+
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href={photo8}>
+                  <img src={photo8} alt="Photo 4" width="100%" height="auto"/>
+                </a>
+                <div class="desc">Photo: Sofia Barajas</div>
+              </div>
+            </div> 
+
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href={photo7}>
+                  <img src={photo7} alt="Photo 5" width="100%" height="auto"/>
+                </a>
+                <div class="desc">Photo: Sofia Barajas</div>
+              </div>
+            </div> 
+
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href={photo12}>
+                  <img src={photo12} alt="Photo 6" width="100%" height="auto"/>
+                </a>
+                <div class="desc">Photo: Lilo Ingenlath-Gegic</div>
+              </div>
+            </div> 
+
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href={photo13}>
+                  <img src={photo13} alt="Photo 7" width="100%" height="auto"/>
+                </a>
+                <div class="desc">Photo: Lilo Ingenlath-Gegic</div>
+              </div>
+            </div> 
+
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href={photo14}>
+                  <img src={photo14} alt="Photo 8" width="100%" height="auto"/>
+                </a>
+                <div class="desc">Photo: Kulturgemeinde Finnentrop</div>
+              </div>
+            </div>
+
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href={photo11}>
+                  <img src={photo11} alt="Photo 9" width="100%" height="auto"/>
+                </a>
+                <div class="desc">Photo: Stefan Pieper</div>
+              </div>
+            </div> 
+
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href={photo9}>
+                  <img src={photo9} alt="Photo 10" width="100%" height="auto"/>
+                </a>
+                <div class="desc">Photo: Sofia Barajas</div>
+              </div>
+            </div> 
+
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href={photo15}>
+                  <img src={photo15} alt="Photo 11" width="100%" height="auto"/>
+                </a>
+                <div class="desc">Photo: Kulturgemeinde Finnentrop</div>
+              </div>
+            </div>
+
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href={photo16}>
+                  <img src={photo16} alt="Photo 12" width="100%" height="auto"/>
+                </a>
+                <div class="desc">Photo: Peppemhorst</div>
+              </div>
+            </div>
+
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href={photo17}>
+                  <img src={photo17} alt="Photo 13" width="100%" height="auto"/>
+                </a>
+                <div class="desc">Photo: Lisa Kannenbrock</div>
+              </div>
+            </div>
+                      
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href={photo2}>
+                  <img src={photo2} alt="Photo 14" width="100%" height="auto"/>
+                </a>
+                <div class="desc">Photo: Sofia Barajas</div>
+              </div>
+            </div>
+            
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href={photo5}>
+                  <img src={photo5} alt="Photo 15" width="100%" height="auto"/>
+                </a>
+                <div class="desc">Photo: Sofia Barajas</div>
+              </div>
+            </div>
+
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href={photo10}>
+                  <img src={photo10} alt="Photo 16" width="100%" height="auto"/>
+                </a>
+                <div class="desc">Photo: Sofia Barajas</div>
+              </div>
+            </div> 
+
+            
             </Layout>
         </LanguageContext.Provider> 
         );
