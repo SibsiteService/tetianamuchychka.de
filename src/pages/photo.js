@@ -27,6 +27,7 @@ import photo14 from "../assets/images/Tetiana_20.jpg";
 import photo15 from "../assets/images/Tetiana_21.jpg";
 import photo16 from "../assets/images/Tetiana_22.jpg";
 import photo17 from "../assets/images/Tetiana_23.jpg";
+import photo18 from "../assets/images/Tetiana_15_reduced.jpg";
 
 
 
@@ -71,18 +72,18 @@ export default class PhotoPage extends React.Component
             </Helmet>
             <div className="background-underlay"/>
             <div className="photo-section">
-              <span className="section-title photo-title">{this.state.LANGUAGE.t('photo')}</span>
+              <span className="album-title">{this.state.LANGUAGE.t('photo')}</span>
             </div>
             
             <div class="responsive">
               <div class="gallery">
-                <a target="_blank" href={photo1}>
-                  <img src={photo1} alt="Photo 1" width="100%" height="auto"/>
-                </a>  
-                <div class="desc">Photo: Sofia Barajas</div>
+                <a target="_blank" href={photo18}>
+                  <img src={photo18} alt="Photo 7" width="100%" height="auto"/>
+                </a>
+                <div class="desc">Photo: Lilo Ingenlath-Gegic</div>
               </div>
-            </div>
-
+            </div> 
+            
             <div class="responsive">
               <div class="gallery">
                 <a target="_blank" href={photo3}>
@@ -127,6 +128,15 @@ export default class PhotoPage extends React.Component
                 <div class="desc">Photo: Lilo Ingenlath-Gegic</div>
               </div>
             </div> 
+
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href={photo1}>
+                  <img src={photo1} alt="Photo 1" width="100%" height="auto"/>
+                </a>  
+                <div class="desc">Photo: Sofia Barajas</div>
+              </div>
+            </div>
 
             <div class="responsive">
               <div class="gallery">
