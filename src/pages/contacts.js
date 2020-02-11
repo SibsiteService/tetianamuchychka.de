@@ -66,11 +66,15 @@ export default class contactsPage extends React.Component
                     <p>
                     {this.state.LANGUAGE.t('contacts_phone')}
                     </p>
+                    
                    </div>
                    
                 </div>
+                
                 <div className= "contacts-img tetiana-contacts-img"/>
-            </div>
+                <a className="section-footer" href="https://www.sibsite-service.com" target="_blank">{this.state.LANGUAGE.t('footer_developed_by')}&nbsp;<strong>{this.state.LANGUAGE.t('footer_sibsite_link')}</strong></a>
+                </div>
+                
           </Layout>
         </LanguageContext.Provider> 
         );

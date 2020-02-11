@@ -50,7 +50,7 @@
         "concert_06_event": "Live Music Now e. V. Rhein-Ruhr mit Michailo Eraković, Akkordeon",
         "concert_06_additional": "",
         "concert_07_date": "9 Juli 2018",
-        "concert_07_place": "Kleiner Konzertsaal, Folkwang Universität der Künste, Campus",
+        "concert_07_place": "Kleiner Konzertsaal, Folkwang Universität der Künste",
         "concert_07_city": "Duisburg, Deutschland",
         "concert_07_event": "Klassenabend Akkordeon",
         "concert_07_additional": "W.A. Mozart Sonate Nr. 12",
@@ -148,8 +148,8 @@
         "concert_23_additional": "Werke von G. Katzer",
 
         "concert_24_date": "12 Juli 2019,  19:30",
-        "concert_24_place": "Kleiner Konzertsaal, Folkwang Universität der Künste, Campus",
-        "concert_24_city": "Duisburg",
+        "concert_24_place": "Kleiner Konzertsaal, Folkwang Universität der Künste",
+        "concert_24_city": "Duisburg, Deutschland",
         "concert_24_event": "Frische Klänge",
         "concert_24_additional": "Werke von A. Logothetis Mäandros",
 
@@ -258,13 +258,13 @@
         "concert_42_date": "4 Februar 2020,  9:00",
         "concert_42_place": "GGS Sandstraße",
         "concert_42_city": "Duisburg-Marxloh, Deutschland",
-        "concert_42_event": "Live Music Now e. V. Rhein-Ruhr mit Timon Knöll",
+        "concert_42_event": "Live Music Now e. V. Rhein-Ruhr mit Timon Knöll (Klarinette)",
         "concert_42_additional": "",
 
         "concert_43_date": "13 Februar 2020,  16:00",
         "concert_43_place": "Altenzentrum Stammhaus",
         "concert_43_city": "Düsseldorf, Deutschland",
-        "concert_43_event": "Live Music Now e. V. Rhein-Ruhr mit Mihajlo Milosev",
+        "concert_43_event": "Live Music Now e. V. Rhein-Ruhr mit Mihajlo Milosev (Akkordeon)",
         "concert_43_additional": "",
 
         "concert_44_date": "16 Februar 2020, 15:00",

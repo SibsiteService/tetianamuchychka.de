@@ -67,8 +67,7 @@ export default class IndexPage extends React.Component
                   <a>&nbsp;&nbsp;&nbsp;</a>
                   <a href="https://www.instagram.com/tetiana.muchychka" target="_blank" className="fa fa-instagram social-icon" aria-hidden="true"/>
                 </div>
-                <a className="section-footer" href="https://www.sibsite-service.com" target="_blank">{this.state.LANGUAGE.t('footer_developed_by')}&nbsp;<strong>{this.state.LANGUAGE.t('footer_sibsite_link')}</strong></a>
-               
+                
               </Section> 
             </div>    
           </Layout>

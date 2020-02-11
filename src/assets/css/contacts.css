@@ -7,6 +7,24 @@
     height: 100%;
 }
 
+.section-footer
+{
+	font-size: 20px;
+	color:#ffffff;
+	text-align: center;
+	
+	
+}
+
+.section-footer:hover
+{
+	color :#d33333;
+	transition: 0.5s;
+	
+}
+
+
+
 .contacts-container
 {
     width: 100%;
@@ -24,13 +42,13 @@
 }
 .contacts-text
 {
-    color: #C6C7BF;
+    color: #ffffff;
     width: 50%;
     font-size: 25px;
 }
 .contacts-text a{
     text-decoration: none;
-    color: #C6C7BF;
+    color: #ffffff;
     
 }
 
