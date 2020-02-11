@@ -60,7 +60,8 @@ export default class MusicPage extends React.Component
                       webkitallowfullscreen="true"
                       mozallowfullscreen="true"
                       allowFullScreen frameborder="0">
-              </iframe>  
+              </iframe> 
+              <br /><br />
               <iframe margin-top="20%" width="450" height="215" 
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                       src="https://www.youtube.com/embed/lGVQdGrZnFA"
