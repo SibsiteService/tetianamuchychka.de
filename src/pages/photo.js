@@ -80,7 +80,7 @@ export default class PhotoPage extends React.Component
                 <a target="_blank" href={photo18}>
                   <img src={photo18} alt="Photo 7" width="100%" height="auto"/>
                 </a>
-                <div class="desc">Photo: Lilo Ingenlath-Gegic</div>
+                <div class="desc">Photo: Sofia Barajas</div>
               </div>
             </div> 
             
