@@ -54,6 +54,17 @@ export default class MusicPage extends React.Component
               <br /><br /><br /><br /><br />
              
               <iframe margin-top="20%" width="450" height="215" 
+                      titel="Enrique Granados Danza Española no.2 'Oriental' (Tetiana Muchychka - Accordion)"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      src="https://www.youtube.com/embed/lzT7qhVSR9o"
+                      frameBorder="0"
+                      webkitallowfullscreen="true"
+                      mozallowfullscreen="true"
+                      allowFullScreen frameborder="0">
+              </iframe> 
+              <br /><br />
+              <iframe margin-top="20%" width="450" height="215" 
+                      titel="Johann Pachelbel - Chaconne in f minor, P. 43 (Tetiana Muchychka - Accordion)"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                       src="https://www.youtube.com/embed/RfJerDoEsMI"
                       frameBorder="0"
@@ -63,6 +74,7 @@ export default class MusicPage extends React.Component
               </iframe> 
               <br /><br />
               <iframe margin-top="20%" width="450" height="215" 
+                      titel="Tetiana Muchychka F Angelis Konzertetüde Chiquilin de bachin 1"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                       src="https://www.youtube.com/embed/lGVQdGrZnFA"
                       frameBorder="0"
@@ -72,6 +84,8 @@ export default class MusicPage extends React.Component
               </iframe>  
               <br /><br />
               <iframe margin-top="20%" width="450" height="215" 
+                      
+                      titel="Tetiana Muchychka - W. A. Mozart Sonate F Dur Nr.12 III. Satz"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                       src="https://www.youtube.com/embed/cN1xDHNkszs"
                       frameBorder="0"
