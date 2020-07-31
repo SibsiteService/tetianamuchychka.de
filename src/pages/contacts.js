@@ -63,10 +63,7 @@ export default class contactsPage extends React.Component
                     <a href="mailto:tetianamuchychka@gmail.com" target="_blank"> {this.state.LANGUAGE.t('contacts_email')}</a> 
                     </p>
                     
-                    <p>
-                    {this.state.LANGUAGE.t('contacts_phone')}
-                    </p>
-                    
+                                       
                    </div>
                    
                 </div>
