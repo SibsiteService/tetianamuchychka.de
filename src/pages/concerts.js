@@ -54,6 +54,66 @@ export default class ConcertsPage extends React.Component
 
               <table className="concert-table">
                 <tbody>
+                <a href = "https://www.t-a-s.net/seniorenwohnheime/marienheim/aktuelles/live-music-now-zu-gast-im-marienheim/" target="_blank">
+                    <tr>
+                        <td>
+                            <span className="concert-first-title">
+                            {this.state.LANGUAGE.t('concert_48_date')}
+                            </span>
+                            <span className="concert-second-title">
+                            {this.state.LANGUAGE.t('concert_48_place')}
+                            </span>
+                        </td>
+                        <td>{this.state.LANGUAGE.t('concert_48_city')}</td>
+                        <td>{this.state.LANGUAGE.t('concert_48_event')}</td>
+                        <td>{this.state.LANGUAGE.t('concert_48_additional')}</td>
+                    </tr>
+                 </a>
+                <a href = "https://livemusicnow-rheinruhr.de/kalender/" target="_blank">
+                    <tr>
+                        <td>
+                            <span className="concert-first-title">
+                            {this.state.LANGUAGE.t('concert_47_date')}
+                            </span>
+                            <span className="concert-second-title">
+                            {this.state.LANGUAGE.t('concert_47_place')}
+                            </span>
+                        </td>
+                        <td>{this.state.LANGUAGE.t('concert_47_city')}</td>
+                        <td>{this.state.LANGUAGE.t('concert_47_event')}</td>
+                        <td>{this.state.LANGUAGE.t('concert_47_additional')}</td>
+                    </tr>
+                 </a>
+                <a href = "https://www.pressreader.com/germany/rheinische-post/20200520/282222307951456" target="_blank">
+                    <tr>
+                        <td>
+                            <span className="concert-first-title">
+                            {this.state.LANGUAGE.t('concert_46_date')}
+                            </span>
+                            <span className="concert-second-title">
+                            {this.state.LANGUAGE.t('concert_46_place')}
+                            </span>
+                        </td>
+                        <td>{this.state.LANGUAGE.t('concert_46_city')}</td>
+                        <td>{this.state.LANGUAGE.t('concert_46_event')}</td>
+                        <td>{this.state.LANGUAGE.t('concert_46_additional')}</td>
+                    </tr>
+                 </a>
+                <a href = "https://kabawil.de/blog/category/hinterhofpause/" target="_blank">
+                    <tr>
+                        <td>
+                            <span className="concert-first-title">
+                            {this.state.LANGUAGE.t('concert_45_date')}
+                            </span>
+                            <span className="concert-second-title">
+                            {this.state.LANGUAGE.t('concert_45_place')}
+                            </span>
+                        </td>
+                        <td>{this.state.LANGUAGE.t('concert_45_city')}</td>
+                        <td>{this.state.LANGUAGE.t('concert_45_event')}</td>
+                        <td>{this.state.LANGUAGE.t('concert_45_additional')}</td>
+                    </tr>
+                 </a>
                 <a href = "https://www.wasgehtheuteab.de/bochum/e/97dbdecd-a822-444b-b365-4dc3825e689b" target="_blank">
                     <tr>
                         <td>

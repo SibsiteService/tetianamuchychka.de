@@ -56,6 +56,16 @@ export default class MusicPage extends React.Component
               <iframe margin-top="20%" width="450" height="215" 
                       titel="Enrique Granados Danza Española no.2 'Oriental' (Tetiana Muchychka - Accordion)"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      src="https://www.youtube.com/embed/eq8g1m-cy9A"
+                      frameBorder="0"
+                      webkitallowfullscreen="true"
+                      mozallowfullscreen="true"
+                      allowFullScreen frameborder="0">
+              </iframe> 
+              <br /><br />
+              <iframe margin-top="20%" width="450" height="215" 
+                      titel="Enrique Granados Danza Española no.2 'Oriental' (Tetiana Muchychka - Accordion)"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                       src="https://www.youtube.com/embed/lzT7qhVSR9o"
                       frameBorder="0"
                       webkitallowfullscreen="true"
