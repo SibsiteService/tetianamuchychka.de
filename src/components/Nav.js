@@ -94,8 +94,10 @@ export default class Nav  extends React.Component{
                             </div>
                         </div>
         
-        
-                        
+                        <div className="flex-column menu-item">
+                            <a href={"/concerts/?lang="+ LANGUAGE.currentLang()}>{LANGUAGE.t('Konzerte')}</a>
+                            <div className="underline"/>
+                        </div>
         
                         <div className="flex-column menu-item">
                             <a href={"/media/?lang="+ LANGUAGE.currentLang()}>{LANGUAGE.t('Media')}</a>
