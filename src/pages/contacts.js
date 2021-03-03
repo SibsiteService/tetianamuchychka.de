@@ -52,10 +52,10 @@ export default class contactsPage extends React.Component
                 <span className="section-title contacts-title">{this.state.LANGUAGE.t('Kontakt')}</span>
                 <div className= "flex-row flex-sa contacts-container">
                    <div className= "contacts-text" >
+                   
                    <p>
                     {this.state.LANGUAGE.t('Für weitere Informationen und Konzertanfragen wenden Sie sich bitte an:')} 
-                    </p>
-                    <p>
+                    <br/>
                     {this.state.LANGUAGE.t('Tetiana Muchychka')}
                     </p>
                     
@@ -69,7 +69,7 @@ export default class contactsPage extends React.Component
                 </div>
                 
                 <div className= "contacts-img tetiana-contacts-img"/>
-                <a className="section-footer" href="https://www.sibsite-service.com" target="_blank">{this.state.LANGUAGE.t('footer_developed_by')}&nbsp;<strong>{this.state.LANGUAGE.t('footer_sibsite_link')}</strong></a>
+                
                 </div>
                 
           </Layout>
