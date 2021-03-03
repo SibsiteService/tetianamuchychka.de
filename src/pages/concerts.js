@@ -50,7 +50,7 @@ export default class ConcertsPage extends React.Component
             <div className="background-underlay"/>
             <div className="flex-column concerts-section">
 
-              <span className="biography-title">{this.state.LANGUAGE.t('concerts')}</span>
+              <span className="biography-title">{this.state.LANGUAGE.t('Konzerte')}</span>
 
               <table className="concert-table">
                 <tbody>
@@ -833,22 +833,22 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_03_date')}
+                            {this.state.LANGUAGE.t('10 Juni 2018')}
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_03_place')}
+                            {this.state.LANGUAGE.t('Werner Richard Saal')}
                             </span>
                         </td>
 
                         <td>
-                        {this.state.LANGUAGE.t('concert_03_city')}  
+                        {this.state.LANGUAGE.t('Herdecke, Deutschland')}  
                         </td>
 
                         <td>
-                            {this.state.LANGUAGE.t('concert_03_event')}
+                            {this.state.LANGUAGE.t('Galakonzert der Stipendiaten der Werner Richard - Dr. Carl Dörken Stiftung')}
                         </td>
                         <td>
-                            {this.state.LANGUAGE.t('concert_03_additional')}
+                            {this.state.LANGUAGE.t('S. Voitenko „Offenbarung“')}
                         </td>
                     </tr>
                     </a>
@@ -856,22 +856,22 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_02_date')}
+                            {this.state.LANGUAGE.t('4 Juni 2018')}
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_02_place')}
+                            {this.state.LANGUAGE.t('Kammermusiksaal, Folkwang Universität der Künste')}
                             </span>
                         </td>
 
                         <td>
-                        {this.state.LANGUAGE.t('concert_02_city')}  
+                        {this.state.LANGUAGE.t('Essen Werden, Deutschland')}  
                         </td>
 
                         <td>
-                            {this.state.LANGUAGE.t('concert_02_event')}
+                            {this.state.LANGUAGE.t('Öffentliches Vorspiel für ein Musikstipendium der Werner Richard - Dr. Carl Dörken Stiftung')}
                         </td>
                         <td>
-                            {this.state.LANGUAGE.t('concert_02_additional')}
+                            {this.state.LANGUAGE.t('E. Granados aus „Spanische Tänze“')}
                         </td>
                     </tr>
                     </a>
@@ -879,19 +879,19 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_01_date')}
+                            {this.state.LANGUAGE.t('2 Juni 2018')}
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_01_place')}
+                            {this.state.LANGUAGE.t('Werner Richard Saal')}
                             </span>
                         </td>
                 
                         <td>
-                        {this.state.LANGUAGE.t('concert_01_city')}
+                        {this.state.LANGUAGE.t('Herdecke, Deutschland')}
                         </td>
 
                         <td>
-                            {this.state.LANGUAGE.t('concert_01_event')}
+                            {this.state.LANGUAGE.t('Öffentliches Vorspiel für ein Musikstipendium der Werner Richard - Dr. Carl Dörken Stiftung')}
                         </td>
                         
                         <td class="click-raw">

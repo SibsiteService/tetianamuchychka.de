@@ -72,7 +72,7 @@ export default class PhotoPage extends React.Component
             </Helmet>
             <div className="background-underlay"/>
             <div className="photo-section">
-              <span className="album-title">{this.state.LANGUAGE.t('photo')}</span>
+              <span className="album-title">{this.state.LANGUAGE.t('Photos')}</span>
             </div>
             
             <div class="responsive">

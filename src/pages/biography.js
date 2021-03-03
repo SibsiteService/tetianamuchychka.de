@@ -59,41 +59,41 @@ export default class BiographyPage extends React.Component
             </Helmet>
             <div className="flex-column biography-section">
               <div className="background-underlay"/>
-                <span className="section-title biography-title">{this.state.LANGUAGE.t('biography')}</span>
+                <span className="section-title biography-title">{this.state.LANGUAGE.t('Biographie')}</span>
                 <div className= "flex-row flex-sa biography-container">
                    <div className= "biography-text" >
                     <p>
-                    {this.state.LANGUAGE.t('biography_first_paragraph')}
+                    {this.state.LANGUAGE.t('Tetiana Muchychka ist eine in der Ukraine geborene Akkordeon-Virtuosin. In ihrer Heimatstadt Uzhgorod(Ukraine), bekannt für die prachtvollen Sakura-Bäume, begann sie im Alter von sechs Jahren das Akkordeonspiel. Mit 15 Jahren legte sie an der Musikfachschule D. Y. Zador den Grundstein für ihren musikalischen Werdegang.')}
                     </p>
                     <p>
-                    {this.state.LANGUAGE.t('biography_second_paragraph')}
+                    {this.state.LANGUAGE.t('Im April 2013 erreichte sie den ersten Platz beim internationalen Akkordeonwettbewerb „Zakarpatsky Edelweiß“. Im Jahre 2015 nahm sie ihr Studium an der Folkwang Universität der Künste bei Professorin Mie Miki auf.')}
                     </p>
                     <p>
-                    {this.state.LANGUAGE.t('biography_third_paragraph')}
+                    {this.state.LANGUAGE.t('Im Laufe ihres Studiums wurde sie mehrfach Stipendiatin zahlreicher Stiftungen:')}
                     </p>
                     <p>
-                    {this.state.LANGUAGE.t('biography_fourth_paragraph')}
+                    {this.state.LANGUAGE.t('- 2016 und 2017 Alfred und Cläre Pott Stiftung')}
                     </p>
                     <p>
-                    {this.state.LANGUAGE.t('biography_fifth_paragraph')}
+                    {this.state.LANGUAGE.t('- 2017 Yehudi Menuhin Live Music Now Rhein-Ruhr')}
                     </p>
                     <p>
-                    {this.state.LANGUAGE.t('biography_sixth_paragraph')}
+                    {this.state.LANGUAGE.t('- 2018 DAAD (Deutsche Akademische Austauschdienst) STIBET I, STIBET III')}
                     </p>
                     <p>
-                    {this.state.LANGUAGE.t('biography_seventh_paragraph')}
+                    {this.state.LANGUAGE.t('- 2018 Werner Richard - Dr. Carl Dörken Stiftung')}
                     </p>
                     <p>
-                    {this.state.LANGUAGE.t('biography_eighth_paragraph')}
+                    {this.state.LANGUAGE.t('Bald darauf wurde sie für die Konzertreihe „Best of NRW“ für die Saison 2019 ausgewählt. Diese Konzertreihe umfasste 13 Solokonzerte, mit Auftritten in ganz Nordrhein-Westfalen. Hierbei konzertierte sie an namenhaften Spielstätten, u.a. im Beethoven-Haus, Apollo-Theater Siegen, Schloss Borbeck.')}
                     </p>
                     <p>
-                    {this.state.LANGUAGE.t('biography_ninth_paragraph')}
+                    {this.state.LANGUAGE.t('Den musikalischen Feinschliff erhielt sie im Rahmen von Meisterkursen bei den renommierten Akkordeonisten Yurij Shishkin, Alexander Poeluev, Artem Nyzhnyk, Janne Rättyä, Lars Holm und Claudio Jacomucci.')}
                     </p>
                     <p>
-                    {this.state.LANGUAGE.t('biography_tenth_paragraph')}
+                    {this.state.LANGUAGE.t('Tetiana Muchychka konzertiert nicht nur in Deutschland, sondern auch in der Ukraine und Ungarn. Regelmäßig erhält sie von ihrem Publikum und der anwesenden Presse große Anerkennung.')}
                     </p>
                     <p>
-                    {this.state.LANGUAGE.t('biography_eleventh_paragraph')}
+                    {this.state.LANGUAGE.t('In ihren Konzerten glänzt sie durch außergewöhnliche Innigkeit, energiegeladene Spielfreude, stets gepaart mit tiefer Leidenschaft. Tetiana Muchychka überzeugt ihre Hörerschaft mit einer ansteckenden Emotionalität, welche durch ihr vielfältiges Klangfarbenspektrum einen ganz eigenen Zauber entfacht.')}
                     </p>
                        
                    </div>
@@ -101,7 +101,7 @@ export default class BiographyPage extends React.Component
                 </div>
                 <div className= "biography-img tetiana2-img"/>
                 <div className="flex-row flex-center download-link-container">
-                  <a href={biographies["biography_"+this.state.LANGUAGE.currentLang()]} download>{this.state.LANGUAGE.t('download')}</a>               
+                  <a href={biographies["biography_"+this.state.LANGUAGE.currentLang()]} download>{this.state.LANGUAGE.t('Herunterladen')}</a>               
                 </div>  
             </div>
           </Layout>

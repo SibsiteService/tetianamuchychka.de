@@ -53,11 +53,11 @@ export default class MusicPage extends React.Component
             </Helmet>
             <div className="flex-column album-section">
               <img className="background-img tetiana-music-video-img"/>
-              <span className="album-title">{this.state.LANGUAGE.t('music_header')}</span> 
+              <span className="album-title">{this.state.LANGUAGE.t('Audio')}</span> 
               
-              <AudioPlayer audioSrc={audio1} trackName={this.state.LANGUAGE.t('music_track_01_name')}/>
+              <AudioPlayer audioSrc={audio1} trackName={this.state.LANGUAGE.t('Johann Sebastian Bach Französische Suite Nr.3 h-moll BWV 814, Menuett/Trio')}/>
                          
-              <AudioPlayer audioSrc={audio2} trackName={this.state.LANGUAGE.t('music_track_02_name')}/>
+              <AudioPlayer audioSrc={audio2} trackName={this.state.LANGUAGE.t('Johann Sebastian Bach Französische Suite Nr.3 h-moll BWV 814, Anglaise')}/>
               
               
             </div>

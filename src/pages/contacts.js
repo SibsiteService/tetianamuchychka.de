@@ -49,18 +49,18 @@ export default class contactsPage extends React.Component
             </Helmet>
             <div className="flex-column contacts-section">
               <div className="background-underlay"/>
-                <span className="section-title contacts-title">{this.state.LANGUAGE.t('contact')}</span>
+                <span className="section-title contacts-title">{this.state.LANGUAGE.t('Kontakt')}</span>
                 <div className= "flex-row flex-sa contacts-container">
                    <div className= "contacts-text" >
+                   
                    <p>
-                    {this.state.LANGUAGE.t('contacts_business')} 
-                    </p>
-                    <p>
-                    {this.state.LANGUAGE.t('name_header')}
+                    {this.state.LANGUAGE.t('Für weitere Informationen und Konzertanfragen wenden Sie sich bitte an:')} 
+                    <br/>
+                    {this.state.LANGUAGE.t('Tetiana Muchychka')}
                     </p>
                     
                     <p>
-                    <a href="mailto:tetianamuchychka@gmail.com" target="_blank"> {this.state.LANGUAGE.t('contacts_email')}</a> 
+                    <a href="mailto:tetianamuchychka@gmail.com" target="_blank"> {this.state.LANGUAGE.t('tetianamuchychka@gmail.com')}</a> 
                     </p>
                     
                                        
@@ -69,7 +69,7 @@ export default class contactsPage extends React.Component
                 </div>
                 
                 <div className= "contacts-img tetiana-contacts-img"/>
-                <a className="section-footer" href="https://www.sibsite-service.com" target="_blank">{this.state.LANGUAGE.t('footer_developed_by')}&nbsp;<strong>{this.state.LANGUAGE.t('footer_sibsite_link')}</strong></a>
+                
                 </div>
                 
           </Layout>
