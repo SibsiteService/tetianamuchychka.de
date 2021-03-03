@@ -58,490 +58,490 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_48_date')}
+                            16 September 2020, 15:30
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_48_place')}
+                            Kath. Marienheim
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_48_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_48_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_48_additional')}</td>
+                        <td>Essen, Deutschland</td>
+                        <td>Live Music Now e. V. Rhein-Ruhr</td>
+                        <td>Mit Timon Knöll (Klarinette)</td>
                     </tr>
                  </a>
                 <a href = "https://livemusicnow-rheinruhr.de/kalender/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_47_date')}
+                            25 Juni 2020, 15:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_47_place')}
+                            Ev. Seniorenzentrum
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_47_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_47_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_47_additional')}</td>
+                        <td>Essen Werden, Deutschland</td>
+                        <td>Live Music Now e. V. Rhein-Ruhr</td>
+                        <td>Mit Timon Knöll (Klarinette)</td>
                     </tr>
                  </a>
                 <a href = "https://www.pressreader.com/germany/rheinische-post/20200520/282222307951456" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_46_date')}
+                            20 Mai 2020, 16:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_46_place')}
+                            Johanniter-Stift
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_46_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_46_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_46_additional')}</td>
+                        <td>Meerbusch, Deutschland</td>
+                        <td>Live Music Now e. V. Rhein-Ruhr</td>
+                        <td>Mit Mihajlo Milosev (Akkordeon)</td>
                     </tr>
                  </a>
                 <a href = "https://kabawil.de/blog/category/hinterhofpause/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_45_date')}
+                            30 April 2020, 17:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_45_place')}
+                            KABAWIL-Hinterhof
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_45_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_45_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_45_additional')}</td>
+                        <td>Düsseldorf, Deutschland</td>
+                        <td>KABAWIL e. V.</td>
+                        <td>Mit Dennis Freundel (Gitarre)</td>
                     </tr>
                  </a>
                 <a href = "https://www.wasgehtheuteab.de/bochum/e/97dbdecd-a822-444b-b365-4dc3825e689b" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_44_date')}
+                            16 Februar 2020, 15:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_44_place')}
+                            Anneliese Brost Musikforum Ruhr
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_44_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_44_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_44_additional')}</td>
+                        <td>Bochum, Deutschland</td>
+                        <td>Musikschule Bochum mit Dennis Freundel (Gitarre)</td>
+                        <td>Werke von Carulli, Mendelssohn, Villa-Lobos, Piazzolla, Mees</td>
                     </tr>
                  </a>   
                 <a href = "https://livemusicnow-rheinruhr.de/kalender/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_43_date')}
+                            13 Februar 2020,  16:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_43_place')}
+                            Altenzentrum Stammhaus
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_43_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_43_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_43_additional')}</td>
+                        <td>Düsseldorf, Deutschland</td>
+                        <td>Live Music Now e. V. Rhein-Ruhr mit Mihajlo Milosev (Akkordeon)</td>
+                        <td></td>
                     </tr>
                  </a>   
                  <a href = "https://livemusicnow-rheinruhr.de/kalender/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_42_date')}
+                            4 Februar 2020,  9:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_42_place')}
+                            GGS Sandstraße
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_42_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_42_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_42_additional')}</td>
+                        <td>Duisburg-Marxloh, Deutschland</td>
+                        <td>Live Music Now e. V. Rhein-Ruhr mit Timon Knöll (Klarinette)</td>
+                        <td></td>
                     </tr>
                     </a> 
                     <a href = "https://www.folkwang-uni.de/home/hochschule/veranstaltungen/veranstaltungen-des-laufenden-monats/veranstaltung-detail/11056-klassenabend-akkordeon/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_45_date')}
+                            30 April 2020, 17:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_45_place')}
+                            KABAWIL-Hinterhof
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_45_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_45_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_45_additional')}</td>
+                        <td>Düsseldorf, Deutschland</td>
+                        <td>KABAWIL e. V.</td>
+                        <td>Mit Dennis Freundel (Gitarre)</td>
                     </tr>
                     </a>
                     <a href = "https://www.novavita.com/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_41_date')}
+                            31 Dezember 2019,  18:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_41_place')}
+                            Nova Vita Residenz
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_41_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_41_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_41_additional')}</td>
+                        <td>Essen, Deutschland</td>
+                        <td>Silvester in der Nova Vita Residenz mit Dennis Freundel (Gitarre)</td>
+                        <td></td>
                     </tr>
                     </a> 
                     <a href = "https://www.karlschule-essen.de/termine/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_40_date')}
+                            7 November 2019,  8:45
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_40_place')}
+                            GGS, Karlschule
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_40_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_40_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_40_additional')}</td>
+                        <td>Essen, Deutschland</td>
+                        <td>Live Music Now e. V. Rhein-Ruhr mit Timon Knöll (Klarinette)</td>
+                        <td></td>
                     </tr>
                     </a> 
                     <a href = "https://www.wir-lieben-bottrop.de/veranstaltungen/tetiana-muchychka-akkordeon/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_39_date')}
+                            30 Oktober 2019
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_39_place')}
+                            Kammerkonzertsaal im Kulturzentrum August Everding
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_39_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_39_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_39_additional')}</td>
+                        <td>Bottrop, Deutschland</td>
+                        <td>Konzertreihe „Best of NRW“ - Konzert & Künstleragentur Jens Gunnar Becker</td>
+                        <td></td>
                     </tr>
                     </a> 
                     <a href = "https://www.beethoven.de/de/konzerte" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_38_date')}
+                            20 Oktober 2019,  18:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_38_place')}
+                            Kammermusiksaal Beethoven-Haus
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_38_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_38_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_38_additional')}</td>
+                        <td>Bonn, Deutschland</td>
+                        <td>Konzertreihe „Best of NRW“ - Konzert & Künstleragentur Jens Gunnar Becker</td>
+                        <td></td>
                     </tr>
                     </a> 
                     <a href = "https://www.lokalplus.nrw/nachrichten/kultur-finnentrop/best-of-nrw-1-mit-tetiana-muchychka-in-schoss-bamenohl-37545" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_37_date')}
+                            10 Oktober 2019,  19:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_37_place')}
+                            Schloss Bamenohl
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_37_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_37_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_37_additional')}</td>
+                        <td>Finnentrop, Deutschland</td>
+                        <td>Konzertreihe „Best of NRW“ - Konzert & Künstleragentur Jens Gunnar Becker</td>
+                        <td></td>
                     </tr>
                     </a> 
                     <a href = "https://www.kulturforum-witten.de/saalbauhauswitten/hauswitten/veranstaltungen/?event_id=109448&active_timestamp=1570572000&calendars=38" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_36_date')}
+                            9 Oktober 2019, 19:30
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_36_place')}
+                            Saalbau Haus Witten
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_36_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_36_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_36_additional')}</td>
+                        <td>Witten, Deutschland</td>
+                        <td>Konzertreihe „Best of NRW“ - Konzert & Künstleragentur Jens Gunnar Becker</td>
+                        <td></td>
                     </tr>
                     </a>
                     <a href = "https://www.musikverein-unna.de/programmleser/events/id-1-meisterkonzert-524.html" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_35_date')}
+                            6 Oktober 2019,  18:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_35_place')}
+                            Erich Göpfert Stadthalle
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_35_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_35_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_35_additional')}</td>
+                        <td>Unna, Deutschland</td>
+                        <td>Konzertreihe „Best of NRW“ - Konzert & Künstleragentur Jens Gunnar Becker</td>
+                        <td></td>
                     </tr>
                     </a> 
                     <a href = "https://www.wn.de/Muensterland/Kreis-Coesfeld/Senden/3976837-Tetiana-Muchychka-Vielfach-preisgekroent-Ein-Konzert-der-Superlative" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_34_date')}
+                            29 September 2019,  19:30
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_34_place')}
+                            Bürgersaal des Rathauses
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_34_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_34_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_34_additional')}</td>
+                        <td>Senden, Deutschland</td>
+                        <td>Konzertreihe „Best of NRW“ - Konzert & Künstleragentur Jens Gunnar Becker</td>
+                        <td></td>
                     </tr>
                     </a> 
                     <a href = "https://www.apollosiegen.de/veranstaltungen/tetiana-muchychka-akkordeon/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_33_date')}
+                            28 September 2019,  20:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_33_place')}
+                            Apollo-Theater
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_33_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_33_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_33_additional')}</td>
+                        <td>Siegen, Deutschland</td>
+                        <td>Konzertreihe „Best of NRW“ - Konzert & Künstleragentur Jens Gunnar Becker</td>
+                        <td></td>
                     </tr>
                     </a> 
                     <a href = "https://www.schwelm.de/aktuelles/kalender/veranstaltungen/?event_id=105899&active_timestamp=1569535200" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_32_date')}
+                            27 September 2019,  20:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_32_place')}
+                            Kulturfabrik Ibach-Haus e.V.
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_32_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_32_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_32_additional')}</td>
+                        <td>Schwelm, Deutschland</td>
+                        <td>Konzertreihe „Best of NRW“ - Konzert & Künstleragentur Jens Gunnar Becker</td>
+                        <td></td>
                     </tr>
                     </a> 
                     <a href = "https://www.moenchengladbach.de/de/aktuell-aktiv/veranstaltungskalender/veranstaltung/tetiana-muchychka/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_31_date')}
+                            25 September 2019,  20:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_31_place')}
+                            „Kunstsignal“ im Alten Bahnhof Geneicken
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_31_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_31_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_31_additional')}</td>
+                        <td>Mönchengladbach, Deutschland</td>
+                        <td>Konzertreihe „Best of NRW“ - Konzert & Künstleragentur Jens Gunnar Becker</td>
+                        <td></td>
                     </tr>
                     </a> 
                     <a href = "https://www.stadtlohn.de/bildung-und-kultur/kultur/konzerte/2019-07-19/sonntag-22.-september-2019-18-00-uhr.html" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_30_date')}
+                            22 September 2019,  18:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_30_place')}
+                            Konzertaula Geschwister-Scholl-Gymnasium
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_30_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_30_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_30_additional')}</td>
+                        <td>Stadtlohn, Deutschland</td>
+                        <td>Konzertreihe „Best of NRW“ - Konzert & Künstleragentur Jens Gunnar Becker</td>
+                        <td></td>
                     </tr>
                     </a> 
                     <a href = "https://www.lokalkompass.de/event/essen-borbeck/c-kultur/schwebende-klaenge-auf-dem-akkordeon-mit-tetiana-muchychka_e277989" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_29_date')}
+                            20 September 2019,  19:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_29_place')}
+                            Schloss Borbeck
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_29_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_29_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_29_additional')}</td>
+                        <td>Essen</td>
+                        <td>Konzertreihe „Best of NRW“ - Konzert & Künstleragentur Jens Gunnar Becker</td>
+                        <td></td>
                     </tr>
                     </a>
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_28_date')}
+                            18 September 2019,  14:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_28_place')}
+                            Therapiezentrum
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_28_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_28_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_28_additional')}</td>
+                        <td>Düsseldorf, Deutschland</td>
+                        <td>Live Music Now e. V. Rhein-Ruhr mit Mihajlo Milosev (Akkordeon)</td>
+                        <td>Werke von A. Dvorak, M. Moszkowski, E. Grieg, F. Angelis, J. Haydn</td>
                     </tr>
                     
                     <a href = "https://kreis-borken.de/de/service/aktuelles/aktuelle-pressemeldungen/?tx_news_pi1%5Bnews%5D=3477&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=bba8d4ed12ec284c138d8f9327892394" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_27_date')}
+                            15 September 2019,  17:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_27_place')}
+                            Schloss Raesfeld
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_27_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_27_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_27_additional')}</td>
+                        <td>Schloss Raesfeld, Deutschland</td>
+                        <td>Konzertreihe „Best of NRW“ - Konzert & Künstleragentur Jens Gunnar Becker</td>
+                        <td></td>
                     </tr>
                     </a> 
                     <a href = "https://www.herdecke.de/rathaus-buergerservice/aktuelles-aus-herdecke/nachrichten/detailansicht/news/akkordeonistin-tatiana-muchychka-tritt-im-rahmen-der-konzertreihe-best-of-nrw-im-werner-richard-sa.html?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=cd00b58b965ef2be932c114a0eb6d089" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_26_date')}
+                            8 September 2019,  19:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_26_place')}
+                            Werner Richard Saal
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_26_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_26_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_26_additional')}</td>
+                        <td>Herdecke, Deutschland</td>
+                        <td>Konzertreihe „Best of NRW“ - Konzert & Künstleragentur Jens Gunnar Becker</td>
+                        <td></td>
                     </tr>
                     </a> 
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_25_date')}
+                            6 September 2019,  19:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_25_place')}
+                            Clubhaus SKHE
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_25_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_25_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_25_additional')}</td>
+                        <td>Essen, Deutschland</td>
+                        <td></td>
+                        <td>Werke von J. S. Bach, J. Haydn, D. Scarlatti, P. I. Tschaikowski, F. Angelis</td>
                     </tr>
                     <a href = "https://www.folkwang-uni.de/home/hochschule/ueber-folkwang/campus/campus-duisburg/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_24_date')}
+                            12 Juli 2019,  19:30
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_24_place')}
+                            Kleiner Konzertsaal, Folkwang Universität der Künste
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_24_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_24_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_24_additional')}</td>
+                        <td>Duisburg, Deutschland</td>
+                        <td>Frische Klänge</td>
+                        <td>Werke von A. Logothetis Mäandros</td>
                     </tr>
                     </a> 
                 <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_23_date')}
+                            6 Juli 2019,  19:30
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_23_place')}
+                            Orgelsaal, Folkwang Universität der Künste
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_23_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_23_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_23_additional')}</td>
+                        <td>Essen Werden, Deutschland</td>
+                        <td>Frische Klänge</td>
+                        <td>Werke von G. Katzer</td>
                     </tr>
                              
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_22_date')}
+                            4 Juli 2019,  16:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_22_place')}
+                            Torbogensaal, Folkwang Universität der Künste
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_22_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_22_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_22_additional')}</td>
+                        <td>Essen Werden, Deutschland</td>
+                        <td>Bachelor-Projekt Lecture Konzert unter einem Thema „Ost und West, Musik und Literatur“</td>
+                        <td>Werke von J. S. Bach, W. Jacobi, G. Katzer, A. Kusjakov</td>
                     </tr>
                  
                 <a href = "https://www.folkwang-uni.de/home/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_21_date')}
+                            28 Mai 2019,  19:30
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_21_place')}
+                            Kleiner Konzertsaal, Folkwang Universität der Künste
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_21_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_21_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_21_additional')}</td>
+                        <td>Duisburg, Deutschland</td>
+                        <td>Klassenabend Akkordeon</td>
+                        <td>Werke von P. I. Tschaikowski</td>
                     </tr>
                     </a> 
                 <a href = "https://aip-unternehmensgruppe.de/2019/03/25/veranstaltungen-karstadt-re/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_20_date')}
+                            12 Mai 2019,  17:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_20_place')}
+                            Karstadt-Gebäude & MQR MarkQuartier
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_20_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_20_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_20_additional')}</td>
+                        <td>Recklinghausen</td>
+                        <td>LES FLEURS DU MALE mit Dennis Freundel (Gitarre)</td>
+                        <td></td>
                     </tr>
                     </a>     
                 <a href = "https://www.theater-essen.de/spielplan/a-z/takeover-by-miki--namika-87857/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_19_date')}
+                            4 Mai 2019,  20:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_19_place')}
+                            Philharmonie Essen
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_19_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_19_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_19_additional')}</td>
+                        <td>Essen, Deutschland</td>
+                        <td>Takeover Ensemble! By Miki & Namika</td>
+                        <td></td>
                     </tr>
                     </a> 
                 <a href = "https://www.folkwang-uni.de/home/hochschule/veranstaltungen/veranstaltungen-des-laufenden-monats/veranstaltung-detail/10505-klassenabend-akkordeon/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_18_date')}
+                            24 Januar 2019,  19:30
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_18_place')}
+                            Pina Bausch Theater, Folkwang Universität der Künste
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_18_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_18_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_18_additional')}</td>
+                        <td>Essen, Deutschland</td>
+                        <td>Klassenabend Akkordeon</td>
+                        <td>Werke von G. Katzer Toccata</td>
                     </tr>
                     </a> 
                 <a href = "https://www.parkhaus-huegel.de/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_17_date')}
+                            8 Dezember 2018,  19:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_17_place')}
+                            Parkhaus Hügel
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_17_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_17_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_17_additional')}</td>
+                        <td>Essen, Deutschland</td>
+                        <td>Live Music Now e. V. Rhein-Ruhr mit Dennis Freundel (Gitarre) und Valerie Eickhoff (Gesang)</td>
+                        <td>Werke von A. Piazzolla, K. Weill</td>
                     </tr>
                     </a> 
 
@@ -549,52 +549,52 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_16_date')}
+                            30 November 2018,  10:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_16_place')}
+                            Kammermusiksaal, Folkwang Universität der Künste
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_16_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_16_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_16_additional')}</td>
+                        <td>Essen, Deutschland</td>
+                        <td>Folkwang Akkordeon Wettbewerb</td>
+                        <td>Werke von J. S. Bach, W. A. Mozart, G. Katzer</td>
                     </tr>
                     </a>  
                 <a href = "https://www.ggs-sonnenstrasse.de/" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_15_date')}
+                            12 November 2018,  10:30
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_15_place')}
+                            Grundschule Sonnenstraße
                             </span>
                         </td>
-                        <td>{this.state.LANGUAGE.t('concert_15_city')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_15_event')}</td>
-                        <td>{this.state.LANGUAGE.t('concert_15_additional')}</td>
+                        <td>Düsseldorf, Deutschland</td>
+                        <td>Live Music Now e. V. Rhein-Ruhr mit Michailo Eraković, Akkordeon</td>
+                        <td></td>
                     </tr>
                     </a>    
                 <a href = "https://luise-leven-schule.lvr.de/de/nav_main/index.html" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_14_date')}
+                            8 November 2018,  10:30
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_14_place')}
+                            LVR Luise-Leven-Schule
                             </span>
                         </td>
 
                         <td>
-                        {this.state.LANGUAGE.t('concert_14_city')}  
+                        Krefeld, Deutschland  
                         </td>
 
                         <td>
-                            {this.state.LANGUAGE.t('concert_14_event')}
+                            Live Music Now e. V. Rhein-Ruhr mit Michailo Eraković, Akkordeon
                         </td>
                         <td>
-                            {this.state.LANGUAGE.t('concert_14_additional')}
+                            
                         </td>
                     </tr>
                     </a>    
@@ -602,22 +602,22 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_13_date')}
+                            6 November 2018,  8:45
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_13_place')}
+                            GGS, Karlschule
                             </span>
                         </td>
 
                         <td>
-                        {this.state.LANGUAGE.t('concert_13_city')}  
+                        Essen, Deutschland  
                         </td>
 
                         <td>
-                            {this.state.LANGUAGE.t('concert_13_event')}
+                            Live Music Now e. V. Rhein-Ruhr mit Michailo Eraković, Akkordeon
                         </td>
                         <td>
-                            {this.state.LANGUAGE.t('concert_13_additional')}
+                            {this.state.LANGUAGE.t("")}
                         </td>
                     </tr>
                     </a>
@@ -625,22 +625,22 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_12_date')}
+                            4 November 2018,  16:00
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_12_place')}
+                            Wasserschloss Haus Marck
                             </span>
                         </td>
 
                         <td>
-                        {this.state.LANGUAGE.t('concert_12_city')}  
+                        Tecklenburg, Deutschland  
                         </td>
 
                         <td>
-                            {this.state.LANGUAGE.t('concert_12_event')}
+                            Werner Richard - Dr. Carl Dörken Stiftung
                         </td>
                         <td>
-                            {this.state.LANGUAGE.t('concert_12_additional')}
+                            
                         </td>
                     </tr>
                     </a>
@@ -648,22 +648,22 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_11_date')}
+                            23 September 2018
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_11_place')}
+                            Kunsthaus Kloster Gravenhorst
                             </span>
                         </td>
 
                         <td>
-                        {this.state.LANGUAGE.t('concert_11_city')}  
+                        Hörstel, Deutschland  
                         </td>
 
                         <td>
-                            {this.state.LANGUAGE.t('concert_11_event')}
+                            Werner Richard - Dr. Carl Dörken Stiftung, Familienkonzert „Peter und der Wolf“
                         </td>
                         <td>
-                            {this.state.LANGUAGE.t('concert_11_additional')}
+                            Werke von D. Scarlatti, E. Granados, E. Grieg
                         </td>
                     </tr>
                     </a>
@@ -671,22 +671,22 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_10_date')}
+                            15 September 2018
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_10_place')}
+                            Schloss Benrath
                             </span>
                         </td>
 
                         <td>
-                        {this.state.LANGUAGE.t('concert_10_city')}  
+                        Düsseldorf, Deutschland  
                         </td>
 
                         <td>
-                            {this.state.LANGUAGE.t('concert_10_event')}
+                            Wandelkonzert, Werner Richard - Dr. Carl Dörken Stiftung
                         </td>
                         <td>
-                            {this.state.LANGUAGE.t('concert_10_additional')}
+                            Werke von J. S. Bach, J. Pachelbel
                         </td>
                     </tr>
                     </a>
@@ -694,22 +694,22 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_09_date')}
+                            14 September 2018
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_09_place')}
+                            Schloss Benrath
                             </span>
                         </td>
 
                         <td>
-                        {this.state.LANGUAGE.t('concert_09_city')}  
+                        Düsseldorf, Deutschland  
                         </td>
 
                         <td>
-                            {this.state.LANGUAGE.t('concert_09_event')}
+                            Werner Richard - Dr. Carl Dörken Stiftung
                         </td>
                         <td>
-                            {this.state.LANGUAGE.t('concert_09_additional')}
+                            Werke von J. S. Bach, J. Pachelbel
                         </td>
                     </tr>
                     </a>
@@ -717,22 +717,22 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_08_date')}
+                            8 September 2018
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_08_place')}
+                            Lukaskirche
                             </span>
                         </td>
 
                         <td>
-                        {this.state.LANGUAGE.t('concert_08_city')}  
+                        Gevelsberg, Deutschland  
                         </td>
 
                         <td>
-                            {this.state.LANGUAGE.t('concert_08_event')}
+                            Konzertgesellschaft Gevelsberg, Werner Richard - Dr. Carl Dörken Stiftung
                         </td>
                         <td>
-                            {this.state.LANGUAGE.t('concert_08_additional')}
+                            Werke von J. S. Bach, W.A. Mozart, J. Pachelbel,D. Scarlatti, M. Glinka, W. Jacobi
                         </td>
                     </tr>
                     </a>
@@ -740,22 +740,22 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_07_date')}
+                            9 Juli 2018
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_07_place')}
+                            Kleiner Konzertsaal, Folkwang Universität der Künste
                             </span>
                         </td>
 
                         <td>
-                        {this.state.LANGUAGE.t('concert_07_city')}  
+                        Duisburg, Deutschland  
                         </td>
 
                         <td>
-                            {this.state.LANGUAGE.t('concert_07_event')}
+                            Klassenabend Akkordeon
                         </td>
                         <td>
-                            {this.state.LANGUAGE.t('concert_07_additional')}
+                            W.A. Mozart Sonate Nr. 12
                         </td>
                     </tr>
                     </a>
@@ -764,22 +764,22 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_06_date')}
+                            5 Juli 2018
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_06_place')}
+                            GGS Adolf-Klarenbach-Schule
                             </span>
                         </td>
 
                         <td>
-                        {this.state.LANGUAGE.t('concert_06_city')}  
+                        Düsseldorf, Deutschland  
                         </td>
 
                         <td>
-                            {this.state.LANGUAGE.t('concert_06_event')}
+                            Live Music Now e. V. Rhein-Ruhr mit Michailo Eraković, Akkordeon
                         </td>
                         <td>
-                            {this.state.LANGUAGE.t('concert_06_additional')}
+                            
                         </td>
                     </tr>
                     </a>
@@ -787,22 +787,22 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_05_date')}
+                            21 Juni 2018
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_05_place')}
+                            Kammermusiksaal, Folkwang Universität der Künste
                             </span>
                         </td>
 
                         <td>
-                        {this.state.LANGUAGE.t('concert_05_city')}  
+                        Essen Werden, Deutschland  
                         </td>
 
                         <td>
-                            {this.state.LANGUAGE.t('concert_05_event')}
+                            Öffentliches Vorspiel für ein Musikstipendium
                         </td>
                         <td>
-                            {this.state.LANGUAGE.t('concert_05_additional')}
+                            
                         </td>
                     </tr>
                     </a>
@@ -810,22 +810,22 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('concert_04_date')}
+                            12 Juni 2018
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('concert_04_place')}
+                            Café Schließfach
                             </span>
                         </td>
 
                         <td>
-                        {this.state.LANGUAGE.t('concert_04_city')}  
+                        Essen, Deutschland  
                         </td>
 
                         <td>
-                            {this.state.LANGUAGE.t('concert_04_event')}
+                            Live Music Now e.V. Rhein-Ruhr
                         </td>
                         <td>
-                            {this.state.LANGUAGE.t('concert_04_additional')}
+                            Werke von J.S. Bach, W.A. Mozart, E. Granados, E. Grieg
                         </td>
                     </tr>
                     </a>
@@ -833,22 +833,22 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('10 Juni 2018')}
+                            10 Juni 2018
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('Werner Richard Saal')}
+                            Werner Richard Saal
                             </span>
                         </td>
 
                         <td>
-                        {this.state.LANGUAGE.t('Herdecke, Deutschland')}  
+                        Herdecke, Deutschland  
                         </td>
 
                         <td>
-                            {this.state.LANGUAGE.t('Galakonzert der Stipendiaten der Werner Richard - Dr. Carl Dörken Stiftung')}
+                            Galakonzert der Stipendiaten der Werner Richard - Dr. Carl Dörken Stiftung
                         </td>
                         <td>
-                            {this.state.LANGUAGE.t('S. Voitenko „Offenbarung“')}
+                            S. Voitenko „Offenbarung“
                         </td>
                     </tr>
                     </a>
@@ -856,22 +856,22 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('4 Juni 2018')}
+                            4 Juni 2018
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('Kammermusiksaal, Folkwang Universität der Künste')}
+                            Kammermusiksaal, Folkwang Universität der Künste
                             </span>
                         </td>
 
                         <td>
-                        {this.state.LANGUAGE.t('Essen Werden, Deutschland')}  
+                        Essen Werden, Deutschland  
                         </td>
 
                         <td>
-                            {this.state.LANGUAGE.t('Öffentliches Vorspiel für ein Musikstipendium der Werner Richard - Dr. Carl Dörken Stiftung')}
+                            Öffentliches Vorspiel für ein Musikstipendium der Werner Richard - Dr. Carl Dörken Stiftung
                         </td>
                         <td>
-                            {this.state.LANGUAGE.t('E. Granados aus „Spanische Tänze“')}
+                            E. Granados aus „Spanische Tänze“
                         </td>
                     </tr>
                     </a>
@@ -879,23 +879,23 @@ export default class ConcertsPage extends React.Component
                     <tr>
                         <td>
                             <span className="concert-first-title">
-                            {this.state.LANGUAGE.t('2 Juni 2018')}
+                            2 Juni 2018
                             </span>
                             <span className="concert-second-title">
-                            {this.state.LANGUAGE.t('Werner Richard Saal')}
+                            Werner Richard Saal
                             </span>
                         </td>
                 
                         <td>
-                        {this.state.LANGUAGE.t('Herdecke, Deutschland')}
+                        Herdecke, Deutschland
                         </td>
 
                         <td>
-                            {this.state.LANGUAGE.t('Öffentliches Vorspiel für ein Musikstipendium der Werner Richard - Dr. Carl Dörken Stiftung')}
+                            Öffentliches Vorspiel für ein Musikstipendium der Werner Richard - Dr. Carl Dörken Stiftung
                         </td>
                         
                         <td class="click-raw">
-                            {this.state.LANGUAGE.t('concert_01_additional')}
+                            
                         </td>    
                     </tr>
                     </a>
