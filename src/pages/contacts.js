@@ -49,18 +49,18 @@ export default class contactsPage extends React.Component
             </Helmet>
             <div className="flex-column contacts-section">
               <div className="background-underlay"/>
-                <span className="section-title contacts-title">{this.state.LANGUAGE.t('contact')}</span>
+                <span className="section-title contacts-title">{this.state.LANGUAGE.t('Kontakt')}</span>
                 <div className= "flex-row flex-sa contacts-container">
                    <div className= "contacts-text" >
                    <p>
-                    {this.state.LANGUAGE.t('contacts_business')} 
+                    {this.state.LANGUAGE.t('Für weitere Informationen und Konzertanfragen wenden Sie sich bitte an:')} 
                     </p>
                     <p>
-                    {this.state.LANGUAGE.t('name_header')}
+                    {this.state.LANGUAGE.t('Tetiana Muchychka')}
                     </p>
                     
                     <p>
-                    <a href="mailto:tetianamuchychka@gmail.com" target="_blank"> {this.state.LANGUAGE.t('contacts_email')}</a> 
+                    <a href="mailto:tetianamuchychka@gmail.com" target="_blank"> {this.state.LANGUAGE.t('tetianamuchychka@gmail.com')}</a> 
                     </p>
                     
                                        
