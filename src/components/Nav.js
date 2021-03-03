@@ -108,9 +108,7 @@ export default class Nav  extends React.Component{
                         </div>
         
                         <div className="flex-row lang-buttons-container">
-                            <button className= {"language-button"+ (LANGUAGE.currentLang()=='de'?' active-language-button':'') } onClick={this.selectLenguage.bind(this,'de')}>DE</button>
-                            <button className= {"language-button"+ (LANGUAGE.currentLang()=='en'?' active-language-button':'') } onClick={this.selectLenguage.bind(this,'en')}>EN</button>
-                            <button className= {"language-button"+ (LANGUAGE.currentLang()=='ru'?' active-language-button':'') } onClick={this.selectLenguage.bind(this,'ru')}>RU</button>           
+                            <button className= {"language-button"+ (LANGUAGE.currentLang()=='de'?' active-language-button':'') } onClick={this.selectLenguage.bind(this,'de')}>DE</button>          
                         </div>    
                         </div>
                         
