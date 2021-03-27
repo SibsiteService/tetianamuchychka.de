@@ -54,6 +54,21 @@ export default class ConcertsPage extends React.Component
 
               <table className="concert-table">
                 <tbody>
+                <a>
+                    <tr>
+                        <td>
+                            <span className="concert-first-title">
+                            9 Februar 2021, 16:00
+                            </span>
+                            <span className="concert-second-title">
+                            Bürgermeisterhaus Essen
+                            </span>
+                        </td>
+                        <td>Essen, Deutschland</td>
+                        <td>Live Music Now e. V. Rhein-Ruhr</td>
+                        <td>Mit Timon Knöll (Klarinette)</td>
+                    </tr>
+                 </a>
                 <a href = "https://www.t-a-s.net/seniorenwohnheime/marienheim/aktuelles/live-music-now-zu-gast-im-marienheim/" target="_blank">
                     <tr>
                         <td>
@@ -99,22 +114,7 @@ export default class ConcertsPage extends React.Component
                         <td>Mit Mihajlo Milosev (Akkordeon)</td>
                     </tr>
                  </a>
-                <a href = "https://kabawil.de/blog/category/hinterhofpause/" target="_blank">
-                    <tr>
-                        <td>
-                            <span className="concert-first-title">
-                            30 April 2020, 17:00
-                            </span>
-                            <span className="concert-second-title">
-                            KABAWIL-Hinterhof
-                            </span>
-                        </td>
-                        <td>Düsseldorf, Deutschland</td>
-                        <td>KABAWIL e. V.</td>
-                        <td>Mit Dennis Freundel (Gitarre)</td>
-                    </tr>
-                 </a>
-                <a href = "https://www.wasgehtheuteab.de/bochum/e/97dbdecd-a822-444b-b365-4dc3825e689b" target="_blank">
+               <a href = "https://www.wasgehtheuteab.de/bochum/e/97dbdecd-a822-444b-b365-4dc3825e689b" target="_blank">
                     <tr>
                         <td>
                             <span className="concert-first-title">
