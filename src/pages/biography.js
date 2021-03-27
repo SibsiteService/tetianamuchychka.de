@@ -59,42 +59,16 @@ export default class BiographyPage extends React.Component
             </Helmet>
             <div className="flex-column biography-section">
               <div className="background-underlay"/>
-                <span className="section-title biography-title">{this.state.LANGUAGE.t('Biographie')}</span>
+                <span className="section-title biography-title"><a>Biographie - Tetiana Muchychka</a></span>
                 <div className= "flex-row flex-sa biography-container">
                    <div className= "biography-text" >
-                    <p>
-                    {this.state.LANGUAGE.t('Tetiana Muchychka ist eine in der Ukraine geborene Akkordeon-Virtuosin. In ihrer Heimatstadt Uzhgorod(Ukraine), bekannt für die prachtvollen Sakura-Bäume, begann sie im Alter von sechs Jahren das Akkordeonspiel. Mit 15 Jahren legte sie an der Musikfachschule D. Y. Zador den Grundstein für ihren musikalischen Werdegang.')}
-                    </p>
-                    <p>
-                    {this.state.LANGUAGE.t('Im April 2013 erreichte sie den ersten Platz beim internationalen Akkordeonwettbewerb „Zakarpatsky Edelweiß“. Im Jahre 2015 nahm sie ihr Studium an der Folkwang Universität der Künste bei Professorin Mie Miki auf.')}
-                    </p>
-                    <p>
-                    {this.state.LANGUAGE.t('Im Laufe ihres Studiums wurde sie mehrfach Stipendiatin zahlreicher Stiftungen:')}
-                    </p>
-                    <p>
-                    {this.state.LANGUAGE.t('- 2016 und 2017 Alfred und Cläre Pott Stiftung')}
-                    </p>
-                    <p>
-                    {this.state.LANGUAGE.t('- 2017 Yehudi Menuhin Live Music Now Rhein-Ruhr')}
-                    </p>
-                    <p>
-                    {this.state.LANGUAGE.t('- 2018 DAAD (Deutsche Akademische Austauschdienst) STIBET I, STIBET III')}
-                    </p>
-                    <p>
-                    {this.state.LANGUAGE.t('- 2018 Werner Richard - Dr. Carl Dörken Stiftung')}
-                    </p>
-                    <p>
-                    {this.state.LANGUAGE.t('Bald darauf wurde sie für die Konzertreihe „Best of NRW“ für die Saison 2019 ausgewählt. Diese Konzertreihe umfasste 13 Solokonzerte, mit Auftritten in ganz Nordrhein-Westfalen. Hierbei konzertierte sie an namenhaften Spielstätten, u.a. im Beethoven-Haus, Apollo-Theater Siegen, Schloss Borbeck.')}
-                    </p>
-                    <p>
-                    {this.state.LANGUAGE.t('Den musikalischen Feinschliff erhielt sie im Rahmen von Meisterkursen bei den renommierten Akkordeonisten Yurij Shishkin, Alexander Poeluev, Artem Nyzhnyk, Janne Rättyä, Lars Holm und Claudio Jacomucci.')}
-                    </p>
-                    <p>
-                    {this.state.LANGUAGE.t('Tetiana Muchychka konzertiert nicht nur in Deutschland, sondern auch in der Ukraine und Ungarn. Regelmäßig erhält sie von ihrem Publikum und der anwesenden Presse große Anerkennung.')}
-                    </p>
-                    <p>
-                    {this.state.LANGUAGE.t('In ihren Konzerten glänzt sie durch außergewöhnliche Innigkeit, energiegeladene Spielfreude, stets gepaart mit tiefer Leidenschaft. Tetiana Muchychka überzeugt ihre Hörerschaft mit einer ansteckenden Emotionalität, welche durch ihr vielfältiges Klangfarbenspektrum einen ganz eigenen Zauber entfacht.')}
-                    </p>
+                   <p>Tetiana Muchychka ist eine in der Ukraine geborene Akkordeon-Virtuosin. In ihrer Heimatstadt Uzhgorod (Ukraine), bekannt f&uuml;r die prachtvollen Sakura-B&auml;ume, begann sie im Alter von sechs Jahren das Akkordeonspiel. Mit 15 Jahren legte sie an der Musikfachschule D. Y. Zador den Grundstein f&uuml;r ihren musikalischen Werdegang.</p>
+<p>Im April 2013 erreichte sie den ersten Platz beim internationalen Akkordeonwettbewerb &bdquo;Zakarpatsky Edelwei&szlig;&ldquo;. Im Jahre 2015 nahm sie ihr Studium an der Folkwang Universit&auml;t der K&uuml;nste bei Professorin Mie Miki auf.</p>
+<p>Im Laufe ihres Studiums wurde sie mehrfach Stipendiatin zahlreicher Stiftungen:</p>
+<p>&bull; 2016 und 2017 Alfred und Cl&auml;re Pott Stiftung;<br />&bull; 2017 Yehudi Menuhin Live Music Now Rhein-Ruhr;<br />&bull; 2018 DAAD (Deutsche Akademische Austauschdienst) STIBET I, STIBET III;<br />&bull; 2018 Werner Richard - Dr. Carl D&ouml;rken Stiftung.</p>
+<p>Bald darauf wurde sie f&uuml;r die Konzertreihe &bdquo;Best of NRW&ldquo; f&uuml;r die Saison 2019 ausgew&auml;hlt. Diese Konzertreihe umfasste 13 Solokonzerte, mit Auftritten in ganz Nordrhein-Westfalen. Hierbei konzertierte sie an namenhaften Spielst&auml;tten, u.a. im Beethoven-Haus, Apollo-Theater Siegen, Schloss Borbeck.</p>
+<p>Den musikalischen Feinschliff erhielt sie im Rahmen von Meisterkursen bei den renommierten Akkordeonisten Yurij Shishkin, Alexander Poeluev, Artem Nyzhnyk, Janne R&auml;tty&auml;, Lars Holm und Claudio Jacomucci.</p>
+<p>Tetiana Muchychka konzertiert nicht nur in Deutschland, sondern auch in der Ukraine und Ungarn. Regelm&auml;&szlig;ig erh&auml;lt sie von ihrem Publikum und der anwesenden Presse gro&szlig;e Anerkennung.<br />In ihren Konzerten gl&auml;nzt sie durch au&szlig;ergew&ouml;hnliche Innigkeit, energiegeladene Spielfreude, stets gepaart mit tiefer Leidenschaft. Tetiana Muchychka &uuml;berzeugt ihre H&ouml;rerschaft mit einer ansteckenden Emotionalit&auml;t, welche durch ihr vielf&auml;ltiges Klangfarbenspektrum einen ganz eigenen Zauber entfacht.</p>
                        
                    </div>
                    
