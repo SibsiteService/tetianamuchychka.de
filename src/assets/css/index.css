@@ -90,7 +90,7 @@ body
 
 .tetiana1-img
 {
-	background: no-repeat center top 0px url("../images/Tetiana_14_reduced.jpg");
+	background: no-repeat center top 0px url("../images/Tetiana_13.jpg");
 	background-size: cover;
 }
 
@@ -118,11 +118,32 @@ body
 	text-align: right;
 	
 }
+.section-footer
+{
+	margin-top: 8%;
+	margin-right: 0.5%;
+	font-size: 20px;
+	color:#ffffff;
+	text-align: center;
+	
+	
+}
+
+.section-footer:hover
+{
+	color :#d33333;
+	transition: 0.5s;
+	
+}
+a.section-footer {	
+    text-decoration: none;
+    }
+
 .social-container
 {
 	min-width: 100px;
 	align-self: bottom;
-	margin-top: 8%;
+	margin-top: 10%;
 }
 
 a.social-icon
@@ -136,7 +157,7 @@ a.social-icon
 
 a.social-icon:hover
 {
-	color :rgba(230, 230, 230, 1);
+	color :#d33333;
 	transition: 0.5s;
 }
 

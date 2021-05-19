@@ -43,23 +43,87 @@ export default class MusicPage extends React.Component
           <Layout toggleLanguage ={this.toggleLanguage}>
             <Helmet>
               <meta charSet="utf-8" />
-              <title>{this.state.LANGUAGE.t('name_header')+" - " + this.state.LANGUAGE.t('video_header')}</title>
-              <meta name="description" content="Offizielle Website von Tetiana Muchychka - Akkordeonistin. Hier finden Sie die aktuelle Biographie, Fotos, Tonaufnahmen und Videos der jungen Preis- und Auszeichnungsträgerin - Tetiana Muchychka. Informationen über Konzertanfragen und weitere Details können im Kontaktbereich angefordert werden."/>
+              <title>Tetiana Muchychka - Video</title>
+              <meta name="description" content="Neue Videos von Tatjana Muchichka's Auftritten"/>
+              <meta name="keywords" content="Tetiana Muchychka,Akkordeonistin,Best of NRW,Video,Auftritt,Youtube"></meta>
             </Helmet>
             <div className="flex-column album-section">
              
               <img className="background-img tetiana3-img"/>
-              <span className="album-title">{this.state.LANGUAGE.t('video_header')}</span>
+              <span className="album-title">{this.state.LANGUAGE.t('Videos')}</span>
               <br /><br /><br /><br /><br />
              
               <iframe margin-top="20%" width="450" height="215" 
+                      titel="Sergey Voytenko - Revelation (Tetiana Muchychka - Accordion)"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      src="https://www.youtube.com/embed/tgbNymZ7vqY"
+                      src="https://www.youtube.com/embed/lmUrdhdhrwg"
                       frameBorder="0"
                       webkitallowfullscreen="true"
                       mozallowfullscreen="true"
                       allowFullScreen frameborder="0">
-              </iframe>       
+              </iframe> 
+              <br /><br />
+              <iframe margin-top="20%" width="450" height="215" 
+                      titel="Pyotr Tchaikovsky - Nocturne op. 19 no. 4 (Tetiana Muchychka - Accordion)"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      src="https://www.youtube.com/embed/BrkSdY4lSRQ"
+                      frameBorder="0"
+                      webkitallowfullscreen="true"
+                      mozallowfullscreen="true"
+                      allowFullScreen frameborder="0">
+              </iframe> 
+              <br /><br />
+              <iframe margin-top="20%" width="450" height="215" 
+                      titel="Enrique Granados Danza Española no.2 'Oriental' (Tetiana Muchychka - Accordion)"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      src="https://www.youtube.com/embed/eq8g1m-cy9A"
+                      frameBorder="0"
+                      webkitallowfullscreen="true"
+                      mozallowfullscreen="true"
+                      allowFullScreen frameborder="0">
+              </iframe> 
+              <br /><br />
+              <iframe margin-top="20%" width="450" height="215" 
+                      titel="Enrique Granados Danza Española no.2 'Oriental' (Tetiana Muchychka - Accordion)"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      src="https://www.youtube.com/embed/lzT7qhVSR9o"
+                      frameBorder="0"
+                      webkitallowfullscreen="true"
+                      mozallowfullscreen="true"
+                      allowFullScreen frameborder="0">
+              </iframe> 
+              <br /><br />
+              <iframe margin-top="20%" width="450" height="215" 
+                      titel="Johann Pachelbel - Chaconne in f minor, P. 43 (Tetiana Muchychka - Accordion)"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      src="https://www.youtube.com/embed/RfJerDoEsMI"
+                      frameBorder="0"
+                      webkitallowfullscreen="true"
+                      mozallowfullscreen="true"
+                      allowFullScreen frameborder="0">
+              </iframe> 
+              <br /><br />
+              <iframe margin-top="20%" width="450" height="215" 
+                      titel="Tetiana Muchychka F Angelis Konzertetüde Chiquilin de bachin 1"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      src="https://www.youtube.com/embed/lGVQdGrZnFA"
+                      frameBorder="0"
+                      webkitallowfullscreen="true"
+                      mozallowfullscreen="true"
+                      allowFullScreen frameborder="0">
+              </iframe>  
+              <br /><br />
+              <iframe margin-top="20%" width="450" height="215" 
+                      
+                      titel="Tetiana Muchychka - W. A. Mozart Sonate F Dur Nr.12 III. Satz"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      src="https://www.youtube.com/embed/cN1xDHNkszs"
+                      frameBorder="0"
+                      webkitallowfullscreen="true"
+                      mozallowfullscreen="true"
+                      allowFullScreen frameborder="0">
+              </iframe> 
+                    
             </div>
           </Layout>
         </LanguageContext.Provider> 

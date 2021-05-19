@@ -53,19 +53,21 @@ export default class IndexPage extends React.Component
               <meta charSet="utf-8" />
               <title>Tetiana Muchychka - Akkordeonistin - Best of NRW 2019</title>
               <meta name="description" content="Offizielle Website von Tetiana Muchychka - Akkordeonistin. Hier finden Sie die aktuelle Biographie, Fotos, Tonaufnahmen und Videos der jungen Preis- und Auszeichnungsträgerin - Tetiana Muchychka. Informationen über Konzertanfragen und weitere Details können im Kontaktbereich angefordert werden."/>
+              <meta name="keywords" content="Tetiana Muchychka,Akkordeonistin,offizielle Webseite,Tetiana Muchychka youtube"></meta>            
             </Helmet>
             <div className="flex-column flex-sa main-content-container">
               <Section>
                 <img className="background-img tetiana1-img"/>
           
-                <span className="section-header"><strong>{this.state.LANGUAGE.t('name_header')}</strong></span>
-                <span className="section-title"><strong>{this.state.LANGUAGE.t('title_header')}</strong></span>
-              
+                <span className="section-header"><strong>{this.state.LANGUAGE.t('Tetiana Muchychka')}</strong></span>
+                <span className="section-title"><strong>{this.state.LANGUAGE.t('Akkordeonistin')}</strong></span>
+                               
                 <div className="flex-row flex-center social-container">
                   <a href="https://www.facebook.com/people/Tetiana-Muchychka/100006740625670" target="_blank" className="fa fa-facebook-square social-icon"/>
                   <a>&nbsp;&nbsp;&nbsp;</a>
-                  <a href="https://www.instagram.com/tetiana.muchychka" target="_blank" className="fa fa-instagram social-icon" aria-hidden="true"/> 
+                  <a href="https://www.instagram.com/tetiana.muchychka" target="_blank" className="fa fa-instagram social-icon" aria-hidden="true"/>
                 </div>
+                
               </Section> 
             </div>    
           </Layout>

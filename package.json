@@ -19,9 +19,10 @@
     "i18n": "^0.8.4",
     "i18next": "^19.0.0",
     "react": "^16.11.0",
+    "react-cookie-consent": "^5.1.0",
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
-    "react-image-gallery": "^0.9.1",
+    "react-images": "^1.0.0",
     "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^5.1.2"
   },

@@ -9,7 +9,7 @@ import Layout from "../components/Layout";
 
 import "../assets/css/contacts.css"
 
-export default class BiographyPage extends React.Component
+export default class contactsPage extends React.Component
 {
     state = {}
 
@@ -43,38 +43,40 @@ export default class BiographyPage extends React.Component
           <Layout toggleLanguage ={this.toggleLanguage}>
             <Helmet>
               <meta charSet="utf-8" />
-              <title>{this.state.LANGUAGE.t('name_header')+" - " + this.state.LANGUAGE.t('contact')}</title>
-              <meta name="description" content="Offizielle Website von Tetiana Muchychka - Akkordeonistin. Hier finden Sie die aktuelle Biographie, Fotos, Tonaufnahmen und Videos der jungen Preis- und Auszeichnungsträgerin - Tetiana Muchychka. Informationen über Konzertanfragen und weitere Details können im Kontaktbereich angefordert werden."/>
+              <title>Tetiana Muchychka - Kontakt</title>
+              <meta name="description" content="Für weitere Informationen und Konzertanfragen wenden Sie sich bitte an Tetiana Muchychka"/>
+              <meta name="keywords" content="Tetiana Muchychka,Akkordeonistin,Best of NRW,Kontakt,Konzertanfrage,Telefonnummer Tetiana Muchychka"></meta>            
             </Helmet>
-            <div className="flex-column biography-section">
+            <div className="flex-column contacts-section">
               <div className="background-underlay"/>
-                <span className="section-title biography-title">{this.state.LANGUAGE.t('contact')}</span>
-                <div className= "flex-row flex-sa biography-container">
-                   <div className= "biography-text" >
+                <span className="section-title contacts-title">{this.state.LANGUAGE.t('Kontakt')}</span>
+                <div className= "flex-row flex-sa contacts-container">
+                   <div className= "contacts-text" >
+                   
                    <p>
-                    {this.state.LANGUAGE.t('contacts_business')} 
-                    </p>
-                    <p>
-                    {this.state.LANGUAGE.t('name_header')}
-                    </p>
-                    
-                    <p>
-                    {this.state.LANGUAGE.t('contacts_email')} 
+                    {this.state.LANGUAGE.t('Für weitere Informationen und Konzertanfragen wenden Sie sich bitte an:')} 
+                    <br/>
+                    {this.state.LANGUAGE.t('Tetiana Muchychka')}
                     </p>
                     
                     <p>
-                    {this.state.LANGUAGE.t('contacts_phone')}
+                    <a href="mailto:tetianamuchychka@gmail.com" target="_blank"> {this.state.LANGUAGE.t('tetianamuchychka@gmail.com')}</a> 
                     </p>
+                    
+                                       
                    </div>
-                   <div className= "biography-img tetiana-contacts-img"/>
+                   
                 </div>
-                 
-            </div>
+                
+                <div className= "contacts-img tetiana-contacts-img"/>
+                
+                </div>
+                
           </Layout>
         </LanguageContext.Provider> 
         );
     }
 }
 
-BiographyPage.contextType = LanguageContext;
+contactsPage.contextType = LanguageContext;
 
